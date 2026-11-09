@@ -1,0 +1,829 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "calendrier.mois_debut": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendrier",
+			          "ConceptualProperty": "mois_debut"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mois": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendrier.annee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendrier",
+			          "ConceptualProperty": "annee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Année": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendrier.periode_commerciale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendrier",
+			          "ConceptualProperty": "periode_commerciale"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Période commerciale": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.ca_ht": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "CA HT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CA HT": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.part_des_pages_soldées": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part des pages soldées"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Pages soldées": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.remise_médiane_historique": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Remise médiane (historique)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Remise médiane": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.prix_plein_ttc_relevé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Prix plein TTC (relevé)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Prix plein": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.prix_ttc_relevé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Prix TTC (relevé)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Prix": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.remise_relevé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Remise (relevé)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Remise": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.part_des_unités_au_prix_plein": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part des unités au prix plein"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Part au prix plein": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.taux_découlement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Taux d'écoulement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Stock écoulé": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Écoulé": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.part_cumulée_toutes_collections": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part cumulée (toutes collections)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Toutes collections": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.part_cumulée_des_ventes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part cumulée des ventes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Sélection": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.unités_j0j3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Unités J0-J3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Ventes J0-J3": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.unités_j0j55": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Unités J0-J55"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Ventes à 8 semaines": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Réel 8 sem.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.prévision_à_8_semaines": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Prévision à 8 semaines"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Prévision 8 sem.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.écart_de_prévision": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Écart de prévision"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Écart": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.part_de_la_production": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part de la production"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Production": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.part_de_la_demande": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part de la demande"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Demande": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.remise_moyenne": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Remise moyenne"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Remise moyenne": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.pièces_vendues_sous_le_coût": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Pièces vendues sous le coût"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Pièces sous le coût": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.marge_perdue_sous_le_coût": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Marge perdue sous le coût"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Marge perdue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.gain_courbe_de_tailles": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Gain courbe de tailles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Courbe de tailles": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_mesures.gain_production_au_plus_juste": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Gain production au plus juste"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Production au plus juste": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tranches.tranche_remise": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tranches",
+			          "ConceptualProperty": "tranche_remise"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Remise": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "historique.collection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Historique",
+			          "ConceptualProperty": "collection"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Collection (historique)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "historique.type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Historique",
+			          "ConceptualProperty": "type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Type de produit (historique)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "historique.mois_debut": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Historique",
+			          "ConceptualProperty": "mois_debut"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mois": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "releves.nom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Releves",
+			          "ConceptualProperty": "nom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Produit": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "releves.collection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Releves",
+			          "ConceptualProperty": "collection"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Collection": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "produits.famille": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "famille"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Famille": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "produits.collection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "collection"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Collection": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "produits.jeu_prevision": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "jeu_prevision"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Jeu": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "produits.nom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "nom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Produit": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jours_lancement.jour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jours lancement",
+			          "ConceptualProperty": "jour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Jours depuis le lancement": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tailles.taille": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tailles",
+			          "ConceptualProperty": "taille"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Taille": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "param_recuperation.part_recuperee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Param recuperation",
+			          "ConceptualProperty": "part_recuperee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Ventes perdues récupérées": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "param_surplus.part_evitee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Param surplus",
+			          "ConceptualProperty": "part_evitee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Surplus évité": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

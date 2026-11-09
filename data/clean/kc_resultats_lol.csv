@@ -1,0 +1,40 @@
+date,competition,phase,lieu,adversaire,score_kc,score_adv,resultat,enjeu,source
+2025-03-02,LEC Winter,Finale,Berlin,G2 Esports,3,0,V,Championne (premier titre LEC),wikipedia_lec_2025
+2025-03-10,First Stand,Phase de groupes,Séoul,Team Liquid,1,2,D,,wikipedia_first_stand_2025
+2025-03-11,First Stand,Phase de groupes,Séoul,CTBC Flying Oyster,0,2,D,,wikipedia_first_stand_2025
+2025-03-12,First Stand,Phase de groupes,Séoul,Top Esports,2,0,V,,wikipedia_first_stand_2025
+2025-03-13,First Stand,Phase de groupes,Séoul,Hanwha Life Esports,1,2,D,,wikipedia_first_stand_2025
+2025-03-15,First Stand,Demi-finale,Séoul,CTBC Flying Oyster,3,2,V,Qualifiée pour la finale,wikipedia_first_stand_2025
+2025-03-16,First Stand,Finale,Séoul,Hanwha Life Esports,1,3,D,Finaliste,wikipedia_first_stand_2025
+2026-02-08,LEC Versus,Fin de saison régulière,Berlin,,8,3,1er,Qualifiée pour les playoffs,wikipedia_lec_2026
+2026-02-17,LEC Versus,Quart de finale (haut),Berlin,GIANTX,2,0,V,,wikipedia_lec_2026
+2026-02-20,LEC Versus,Demi-finale (haut),Berlin,G2 Esports,0,2,D,Passe dans le tableau bas,wikipedia_lec_2026
+2026-02-22,LEC Versus,Quart de finale (bas),Berlin,Team Vitality,2,1,V,,wikipedia_lec_2026
+2026-02-27,LEC Versus,Demi-finale (bas),Barcelone,GIANTX,3,0,V,,wikipedia_lec_2026
+2026-02-28,LEC Versus,Finale (bas),Barcelone,Movistar KOI,3,2,V,Qualifiée pour la finale,wikipedia_lec_2026
+2026-03-01,LEC Versus,Finale,Barcelone,G2 Esports,2,3,D,Finaliste,wikipedia_lec_2026
+2026-05-10,LEC Spring,Fin de saison régulière,Berlin / Madrid / Évry,,7,2,2e,Qualifiée pour les playoffs,wikipedia_lec_2026
+2026-05-23,LEC Spring,Demi-finale (haut),Berlin,G2 Esports,1,3,D,Passe dans le tableau bas,wikipedia_lec_2026
+2026-05-30,LEC Spring,Quart de finale (bas),Berlin,Natus Vincere,3,1,V,,wikipedia_lec_2026
+2026-06-01,LEC Spring,Demi-finale (bas),Berlin,GIANTX,3,0,V,,wikipedia_lec_2026
+2026-06-06,LEC Spring,Finale (bas),Berlin,Movistar KOI,3,0,V,Qualifiée pour le MSI,wikipedia_lec_2026
+2026-06-07,LEC Spring,Finale,Berlin,G2 Esports,2,3,D,Finaliste,wikipedia_lec_2026
+2026-06-28,MSI,Play-in tour 1,Daejeon,Relove Deep Cross Gaming,3,0,V,,wikipedia_msi_2026
+2026-06-29,MSI,Play-in tour 2,Daejeon,T1,0,3,D,,wikipedia_msi_2026
+2026-06-30,MSI,Play-in tableau bas,Daejeon,Team Liquid Alienware,0,3,D,Éliminée (10e),wikipedia_msi_2026
+2026-07-17,EWC,Quart de finale,Paris (Porte de Versailles),Anyone's Legend,2,0,V,,presse_ewc_2026
+2026-07-18,EWC,Demi-finale,Paris (Porte de Versailles),T1,2,1,V,Qualifiée pour la finale,presse_ewc_2026
+2026-07-19,EWC,Finale,Paris (Porte de Versailles),Dplus KIA,0,3,D,Finaliste,ewc_communique_2026
+2026-08-30,LEC Summer,Fin de saison régulière,Berlin / Paris,,9,0,1er,Qualifiée pour les playoffs,wikipedia_lec_2026
+2026-09-05,LEC Summer,Demi-finale (haut),Madrid,GIANTX,3,1,V,Qualifiée pour les Worlds,wikipedia_lec_2026
+2026-09-06,LEC Summer,Finale (haut),Madrid,G2 Esports,1,3,D,Passe dans le tableau bas,wikipedia_lec_2026
+2026-09-19,LEC Summer,Finale (bas),Nice,Movistar KOI,0,3,D,3e,wikipedia_lec_2026
+2026-10-15,Worlds,Play-in,Los Angeles,Cloud9 KIA,3,2,V,,wikipedia_worlds_2026
+2026-10-16,Worlds,Play-in,Los Angeles,MVK Esports,3,0,V,,wikipedia_worlds_2026
+2026-10-18,Worlds,Play-in (qualification),Los Angeles,MVK Esports,3,0,V,Qualifiée pour la phase suisse,wikipedia_worlds_2026
+2026-10-23,Worlds,Phase suisse,Dallas,Anyone's Legend,1,0,V,,wikipedia_worlds_2026
+2026-10-24,Worlds,Phase suisse,Dallas,LYON,0,1,D,,wikipedia_worlds_2026
+2026-10-26,Worlds,Phase suisse,Dallas,Bilibili Gaming,0,1,D,,wikipedia_worlds_2026
+2026-10-29,Worlds,Phase suisse (élimination),Dallas,CTBC Flying Oyster,2,0,V,,wikipedia_worlds_2026
+2026-10-31,Worlds,Phase suisse (qualification),Dallas,Movistar KOI,2,0,V,Qualifiée pour les quarts de finale,wikipedia_worlds_2026
+2026-11-06,Worlds,Quart de finale,Dallas,T1,1,3,D,Éliminée,wikipedia_worlds_2026

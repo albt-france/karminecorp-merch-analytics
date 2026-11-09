@@ -1,0 +1,664 @@
+date,timestamp,handle,titre,marque,prix_ttc,prix_plein_ttc,remise,disponible,nb_tailles,nb_tailles_indisponibles
+2025-01-11,20250111123819,maillot-pro-2025-2xl,Maillot Pro 2025 [2XL],Karmine Corp,121.0,121.0,0.0,1,1,0
+2025-01-13,20250113160141,t-shirt-ultra-marron,T-shirt Ultra Marron,Karmine Corp,25.0,25.0,0.0,0,7,7
+2025-01-13,20250113160334,t-shirt-kcx-3,T-shirt KCX 3,Karmine Shop,30.0,30.0,0.0,1,7,0
+2025-01-13,20250113160858,gourde-en-bambou-karmine,Gourde en bambou Karmine,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-01-13,20250113161908,coach-jacket-monogram-beige,Coach Jacket Monogram Beige,Karmine Corp,85.0,85.0,0.0,0,7,7
+2025-01-13,20250113161958,t-shirt-saken-3,T-shirt Légende Du Club Saken V3,Karmine Corp,37.0,37.0,0.0,0,7,7
+2025-01-13,20250113162611,t-shirt-ultra-gris,T-shirt Ultra Gris,Karmine Corp,25.0,25.0,0.0,0,7,7
+2025-01-13,20250113162657,hoodie-ultra-gris,Hoodie Ultra Gris,Karmine Corp,50.0,50.0,0.0,1,7,5
+2025-01-13,20250113163000,t-shirt-classique-marron,T-shirt Classique Marron,Karmine Corp,30.0,30.0,0.0,1,7,6
+2025-01-13,20250113163651,cropped-t-shirt-monogram-beige,Cropped T-shirt Monogram Beige,Karmine Corp,30.0,30.0,0.0,1,6,2
+2025-01-13,20250113164224,hoodie-university-noir,Hoodie University Noir,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-01-13,20250113164304,maillot-the-one,Maillot The One,Karmine Shop,40.0,40.0,0.0,0,6,6
+2025-01-13,20250113165131,hoodie-monogram-beige,Hoodie Monogram Beige,Karmine Corp,75.0,75.0,0.0,1,7,5
+2025-01-13,20250113165406,maillot-kcx-3,Maillot KCX 3 KCORP VS THE WORLDS,Karmine Shop,70.0,70.0,0.0,1,8,7
+2025-01-13,20250113170049,e-carte-cadeau,E-CARTE CADEAU,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-01-13,20250113170306,jogging-classique-rose,Jogging Classique Rose,Karmine Corp,50.0,50.0,0.0,0,7,7
+2025-01-13,20250113172018,tee-legende-du-club-cabochard,T-shirt Légende Du Club Cabochard,Karmine Corp,37.0,37.0,0.0,0,7,7
+2025-01-13,20250113172555,chemise-baseball-blanche,Chemise Baseball Blanche,Karmine Corp,65.0,65.0,0.0,0,7,7
+2025-01-13,20250113172928,drapeau-worlds-2024,Drapeau Worlds 2024 Semi-transparent,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-01-13,20250113174023,t-shirt-classique-noir,T-shirt Classique Noir,Karmine Corp,30.0,30.0,0.0,1,7,3
+2025-01-13,20250113174652,t-shirt-monogram-noir,T-shirt Monogram Noir,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-01-13,20250113174733,g840,Logitech G840,Karmine Corp,45.0,45.0,0.0,1,0,0
+2025-01-13,20250113175223,maillot-league-of-its-own,Précommande,Karmine Corp,75.0,75.0,0.0,0,7,7
+2025-01-13,20250113175340,cropped-t-shirt-monogram-noir,Cropped T-shirt Monogram Noir,Karmine Corp,30.0,30.0,0.0,1,6,0
+2025-01-13,20250113175823,chemise-baseball-bleu,Chemise Baseball Bleu,Karmine Corp,65.0,65.0,0.0,0,7,7
+2025-01-14,20250114223403,hoodie-classique-vert,Hoodie Classique Vert,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-01-14,20250114224808,t-shirt-classique-rose,T-shirt Classique Rose,Karmine Corp,30.0,30.0,0.0,1,7,5
+2025-01-14,20250114224825,hoodie-classique-bleu,Hoodie Classique Bleu,Karmine Corp,60.0,60.0,0.0,1,7,6
+2025-01-14,20250114225533,gourde-karmine-noir-750ml,Gourde Karmine Noir 750ml,Karmine Corp,25.0,25.0,0.0,1,0,0
+2025-01-14,20250114225957,casquette-essentials-noir,Casquette essentials Noir,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-01-14,20250114230151,drapeau-logo-karmine,Drapeau Logo Karmine,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-01-14,20250114230432,hoodie-classique-gris,Hoodie Classique Gris,Karmine Corp,60.0,60.0,0.0,1,7,3
+2025-01-14,20250114231203,t-shirt-classique-blanc,T-shirt Classique Blanc,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-01-14,20250114231537,maillot-2025-ultra,Maillot Ultra 2025,Karmine Corp,65.0,65.0,0.0,1,7,0
+2025-01-14,20250114231732,hoodie-classique-rose,Hoodie Classique Rose,Karmine Corp,60.0,60.0,0.0,1,7,6
+2025-01-14,20250114232002,jogging-pro-kit-2025,Jogging Pro Kit 2025,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-01-14,20250114233356,hoodie-classique-noir,Hoodie Classique Noir,Karmine Corp,60.0,60.0,0.0,1,7,4
+2025-01-14,20250114233447,hoodie-classique-bleu-royal,Hoodie Classique Bleu royal,Karmine Corp,60.0,60.0,0.0,1,7,3
+2025-01-14,20250114234430,porte-cle-karmine-blanc,Porte clé Karmine Blanc,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-01-14,20250114234951,casquette-baseball,Casquette Baseball,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-01-15,20250115000715,mug-logo-karmine,Mug Logo Karmine,Karmine Corp,15.0,15.0,0.0,0,0,0
+2025-01-15,20250115000936,casquette-essentials-beige,Casquette essentials Beige,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-01-15,20250115005208,bob-monogram-noir,Bob Monogram Noir,Karmine Corp,28.0,28.0,0.0,1,0,0
+2025-01-15,20250115005253,chaussettes-monogram-blanche,Paire De Chaussettes Monogram Blanche,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-01-15,20250115005511,maillot-pro-2025-m,Maillot Pro 2025 [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-01-15,20250115005703,batte-de-baseball,Batte de baseball de collection,Karmine Corp,50.0,50.0,0.0,0,0,0
+2025-01-15,20250115011921,neon-karminecorp,Néons Karmine Corp,Karmine Corp,170.0,170.0,0.0,0,0,0
+2025-01-15,20250115013609,etiquette-de-valise-karmine-navy,Étiquette de valise Karmine Navy,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-01-15,20250115013811,copie-de-hoodie-classique-blanc,Hoodie Classique Blanc,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-01-15,20250115143557,jogging-saken-noir,Jogging Légende du Club Saken V1,Karmine Corp,55.0,55.0,0.0,0,7,7
+2025-01-15,20250115144116,t-shirt-piece-of-history,T-shirt Piece of History,Karmine Corp,25.0,25.0,0.0,0,7,7
+2025-01-15,20250115145124,jogging-classique-marron,Jogging Classique Marron,Karmine Corp,50.0,50.0,0.0,0,7,7
+2025-01-15,20250115145858,logitech-g705,Logitech G705,Karmine Corp,109.0,109.0,0.0,1,0,0
+2025-01-15,20250115150758,polo-chroma-blanc,Polo Chroma Blanc,Karmine Corp,70.0,70.0,0.0,1,7,3
+2025-01-15,20250115152157,hoodie-speciale-arenes,Hoodie Finally Home,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-01-15,20250115153538,hoodie-saken-2,Hoodie Légende du Club Saken V2,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-01-15,20250115153707,t-shirt-classique-vert,T-shirt Classique Vert,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-01-15,20250115154010,manchette-kcx-3,Manchette KCX 3,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-01-15,20250115154427,logitech-g715,Logitech G715,Karmine Corp,209.0,209.0,0.0,1,0,0
+2025-01-15,20250115154550,t-shirt-baseball-bleu,T-shirt baseball bleu,Karmine Corp,35.0,35.0,0.0,1,7,3
+2025-01-15,20250115155207,karmine-corp-x-celio-echarpe,Karmine Corp x celio Echarpe,Karmine Corp,25.99,25.99,0.0,1,0,0
+2025-01-15,20250115155503,logitech-g435,Logitech G435,Karmine Corp,85.0,85.0,0.0,1,0,0
+2025-01-15,20250115155641,t-shirt-ultra-noir,T-shirt Ultra Noir,Karmine Corp,25.0,25.0,0.0,0,7,7
+2025-01-15,20250115155912,hoodie-ultra-marron,Hoodie Ultra Marron,Karmine Corp,50.0,50.0,0.0,0,7,7
+2025-01-15,20250115155939,claquettes-cabochard,Slides Légende Du Club Cabochard,Karmine Corp,32.0,32.0,0.0,0,0,0
+2025-01-15,20250115160119,jogging-classique-noir,Jogging Classique Noir,Karmine Corp,50.0,50.0,0.0,1,7,1
+2025-01-15,20250115161443,maillot-pro-2024,Maillot pro 2024 Customisé,Karmine Corp,65.0,65.0,0.0,0,7,7
+2025-01-15,20250115161628,chaussettes-monogram-beige,Paire De Chaussettes Monogram Beige,Karmine Corp,10.0,10.0,0.0,0,0,0
+2025-01-15,20250115161718,logitech-g-pro-tkl,Logitech G PRO TKL,Karmine Corp,139.0,139.0,0.0,1,0,0
+2025-01-15,20250115164441,hoodie-university-gris,Hoodie University Gris,Karmine Corp,65.0,65.0,0.0,0,7,7
+2025-01-15,20250115165241,logitech-g733,Logitech G733,Karmine Corp,159.0,159.0,0.0,1,0,0
+2025-01-15,20250115165454,hoodie-monogram-noir,Hoodie Monogram Noir,Karmine Corp,75.0,75.0,0.0,1,7,5
+2025-01-15,20250115165622,echarpe-the-one,ÉCHARPE THE ONE,Karmine Shop,26.0,26.0,0.0,0,0,0
+2025-01-15,20250115165747,pins-karmine-navy,Pin's Karmine Navy,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-01-19,20250119012323,maillot-pro-2025,Maillot pro 2024,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-02-08,20250208054127,casquette-baseball,Casquette Baseball,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-02-08,20250208054646,t-shirt-university-noir,T-shirt University Noir,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-02-08,20250208054733,etiquette-de-valise-karmine-navy,Étiquette de valise Karmine Navy,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-02-08,20250208060041,casquette-essentials-beige,Casquette essentials Beige,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-02-08,20250208060256,chaussette-monogram-noir,Paire De Chaussettes Monogram Noir,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-02-08,20250208060418,copie-de-hoodie-classique-blanc,Hoodie Classique Blanc,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-02-08,20250208060706,manchette-pro-2024,Manchette Pro 2024,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-02-08,20250208061137,logitech-g305,Logitech G305,Karmine Corp,69.0,69.0,0.0,1,0,0
+2025-02-08,20250208061626,hoodie-ultra-bleu,Hoodie Ultra Bleu,Karmine Corp,50.0,50.0,0.0,1,7,0
+2025-02-08,20250208061808,billets-kcx-4,Billets KCX 4,Karmine Corp,35.0,35.0,0.0,1,0,0
+2025-02-08,20250208061934,t-shirt-baseball-blanc,T-shirt baseball blanc,Karmine Corp,35.0,35.0,0.0,1,7,0
+2025-02-08,20250208062550,maillot-kcx-4,Maillot KCX 4,Karmine Corp,70.0,70.0,0.0,0,7,7
+2025-02-08,20250208062637,hoodie-saken-1,Hoodie Légende Du Club Saken V1,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-02-08,20250208063002,poster-piece-of-history,Poster Piece Of History,Karmine Corp,19.0,19.0,0.0,0,0,0
+2025-02-08,20250208063203,maillot-pro2024,Maillot pro 2024,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-02-08,20250208063326,hoodie-classique-vert,Hoodie Classique Vert,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-02-08,20250208063406,hoodie-university-bleu,Hoodie University Bleu,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-02-08,20250208064008,hoodie-ultra-noir,Hoodie Ultra Noir,Karmine Corp,50.0,50.0,0.0,1,7,0
+2025-02-08,20250208064951,manchette-major-2024,Manchette Major 2024,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-02-08,20250208065149,manchette-kcx-4,Manchette KCX 4,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-02-08,20250208065447,t-shirt-classique-rose,T-shirt Classique Rose,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-02-08,20250208065600,bob-legende-du-club-cabochard,Bob Réversible Légende Du Club Cabochard,Karmine Corp,28.0,28.0,0.0,0,0,0
+2025-02-08,20250208065717,billets-karmine-corp-arena-opening,Billetterie,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-02-08,20250208065910,calendrier-de-lavant-karmine,Calendrier de l'Avent Karmine,Karmine Corp,12.0,12.0,0.0,0,0,0
+2025-02-08,20250208065947,t-shirt-arenes,T-shirt Finally Home,Karmine Corp,30.0,30.0,0.0,1,7,4
+2025-02-08,20250208070247,t-shirt-saken-1,T-shirt Légende Du Club Saken V1,Karmine Corp,37.0,37.0,0.0,0,7,7
+2025-02-08,20250208070753,karmine-corp-x-celio-t-shirt-noir,Karmine Corp x celio T-shirt Noir,Karmine Corp,25.99,25.99,0.0,1,0,0
+2025-02-08,20250208071138,karmine-corp-x-celio-sweat-a-capuche-noir-1,Karmine Corp x celio Sweat à capuche Bleu,Karmine Corp,39.99,39.99,0.0,1,0,0
+2025-02-08,20250208071408,t-shirt-classique-bleu,T-shirt Classique Bleu,Karmine Corp,30.0,30.0,0.0,1,7,6
+2025-02-08,20250208071446,k-cap-blue-pattern,Casquette Monogram Beige,Karmine Corp,28.0,28.0,0.0,0,0,0
+2025-02-08,20250208072611,jogging-kcx-3,Jogging KCX 3,Karmine Shop,55.0,55.0,0.0,1,7,1
+2025-02-08,20250208073123,c922,Logitech C922,Karmine Corp,99.0,99.0,0.0,1,0,0
+2025-02-08,20250208073226,t-shirt-university-beige,T-shirt University Beige,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-02-08,20250208073334,karmine-corp-x-celio-t-shirt-blanc-1,Karmine Corp x celio T-shirt Blanc,Karmine Corp,25.99,25.99,0.0,1,0,0
+2025-02-08,20250208073411,t-shirt-ultra-vert,T-shirt Ultra Vert,Karmine Corp,25.0,25.0,0.0,0,7,7
+2025-02-08,20250208073858,g640,Logitech G640,Karmine Corp,35.0,35.0,0.0,1,0,0
+2025-02-17,20250217013407,manchette-pro-kit-2025-navy,Manchette Pro Kit 2025 Navy,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-02-18,20250218082817,manchette-pro-kit-2025-white,Manchette Pro Kit 2025 White,Karmine Corp,33.0,33.0,0.0,1,0,0
+2025-02-20,20250220082149,pins-karmine-noir,Pin's Karmine Noir,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-02-20,20250220083000,porte-cle-kcwin-noir,Porte clé #KCWIN Noir,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-02-21,20250221162257,pins-karmine-dore,Pin's Karmine Doré,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-02-24,20250224111413,porte-cle-kcorp-navy,Porte clé #KCORP Navy,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-02-24,20250224222243,manchette-major-2025,Manchettes Major 2025,Karmine Corp,46.0,46.0,0.0,1,0,0
+2025-02-24,20250224222358,maillot-major-2025-l,Maillot Major 2025 [L],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-02-24,20250224222401,maillot-major-2025-xs,Maillot Major 2025 [XS],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-02-24,20250224222409,maillot-major-2025,Maillot Major 2025 [M],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-02-24,20250224222422,maillot-major-2025-3xl,Maillot Major 2025 [3XL],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-02-24,20250224222510,maillot-major-2025-2xl,Maillot Major 2025 [2XL],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-02-24,20250224222513,maillot-major-2025-s,Maillot Major 2025 [S],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-02-25,20250225084921,polo-karmine-noir,Polo Chroma Noir,Karmine Corp,70.0,70.0,0.0,1,7,3
+2025-02-25,20250225123851,veste-pro-kit-2025,Veste Pro Kit 2025,Karmine Corp,90.0,90.0,0.0,1,7,0
+2025-02-26,20250226111333,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-02-27,20250227144707,maillot-2025-ultra,Maillot Ultra 2025,Karmine Corp,65.0,65.0,0.0,1,7,0
+2025-03-04,20250304005857,maillot-pro-2025-xs,Maillot Pro 2025 [XS],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-03-05,20250305222558,porte-cle-kcwin-noir,Porte clé #KCWIN Noir,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-03-06,20250306013243,hoodie-classique-bleu,Hoodie Classique Bleu,Karmine Corp,60.0,60.0,0.0,1,7,6
+2025-03-08,20250308002006,maillot-pro-2025-3xl,Maillot Pro 2025 [3XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-03-08,20250308003931,maillot-pro-2025-l,Maillot Pro 2025 [L],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-03-08,20250308090706,maillot-pro-2025,Maillot Pro 2025 [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-03-13,20250313013950,maillot-pro-2025-xl,Maillot Pro 2025 [XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-03-16,20250316082550,logitech-g-pro,Logitech G PRO,Karmine Corp,129.0,129.0,0.0,1,0,0
+2025-03-16,20250316090842,veste-kcx-4,Veste KCX 4,Karmine Corp,77.0,77.0,0.0,1,7,6
+2025-03-16,20250316090952,neon-karminecorp,Néons Karmine Corp,Karmine Corp,170.0,170.0,0.0,0,0,0
+2025-03-16,20250316091456,logitech-g-pro-x-superlight,Logitech G PRO X Superlight,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-03-16,20250316091604,brassiere-monogram-noir,Brassière Monogram Noir,Karmine Corp,30.0,30.0,0.0,1,6,0
+2025-03-16,20250316092735,hoodie-classique-marron,Hoodie Classique Marron,Karmine Corp,60.0,60.0,0.0,1,7,5
+2025-03-16,20250316092829,lec-champ-piece-of-history-2,LEC CHAMP,Karmine Corp,29.0,29.0,0.0,1,7,0
+2025-03-16,20250316092956,g502-x-plus,Logitech G502 X Plus,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-03-16,20250316093038,g740,Logitech G740,Karmine Corp,40.0,40.0,0.0,1,0,0
+2025-03-16,20250316093523,t-shirt-monogram-beige,T-shirt Monogram Beige,Karmine Corp,35.0,35.0,0.0,1,7,0
+2025-03-16,20250316093711,veste-worlds-2024,Veste Worlds 2024,Karmine Shop,90.0,90.0,0.0,0,7,7
+2025-03-16,20250316093932,yeti-x,Logitech Yeti X,Karmine Corp,159.0,159.0,0.0,1,0,0
+2025-03-16,20250316094044,hoodie-classique-bleu-royal,Hoodie Classique Bleu royal,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-03-16,20250316094314,manchette-ascension-2024,Manchette ascension 2024,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-03-16,20250316094347,logitech-g-pro-x-wireless,Logitech G PRO X2 Lightspeed,Karmine Corp,269.0,269.0,0.0,1,0,0
+2025-03-16,20250316094725,g-pro-x-superlight-2-dex-lightspeed,G PRO X SUPERLIGHT 2 DEX LIGHTSPEED,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-03-16,20250316095036,veste-pro-kit-2024,Veste Pro Kit 2024,Karmine Corp,80.0,80.0,0.0,1,7,5
+2025-03-16,20250316095345,quersus-vaos-2-karmine,Quersus VAOS.3 Karmine,Karmine Corp,549.0,549.0,0.0,1,0,0
+2025-03-16,20250316095501,t-shirt-university-gris,T-shirt University Gris,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-03-16,20250316100025,echarpe-world-2024,Écharpe worlds 2024,Karmine Shop,30.0,30.0,0.0,0,0,0
+2025-03-16,20250316100103,gourde-karmine-noir-750ml,Gourde Karmine Noir 750ml,Karmine Corp,25.0,25.0,0.0,1,0,0
+2025-03-16,20250316100144,manchette-major-2025,Manchettes Major 2025,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-03-16,20250316100453,manchette-pro-kit-2025-white,Manchette Pro Kit 2025 White,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-03-16,20250316101208,g-pro-x-superlight-2,G PRO X SUPERLIGHT 2,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-03-16,20250316101314,t-shirt-classique-blanc,T-shirt Classique Blanc,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-03-16,20250316101347,porte-cle-logo-navy,Porte clé logo Navy,Karmine Corp,6.0,6.0,0.0,0,0,0
+2025-03-16,20250316101526,manchette-world-2024,Manchette Worlds 2024,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-03-16,20250316101848,gourde-karmine-bleu-500ml,Gourde Karmine Navy 500ml,Karmine Corp,20.0,20.0,0.0,1,0,0
+2025-03-16,20250316101921,logitech-g735,Logitech G735,Karmine Corp,229.0,229.0,0.0,1,0,0
+2025-03-16,20250316102027,hoodie-classique-gris,Hoodie Classique Gris,Karmine Corp,60.0,60.0,0.0,1,7,4
+2025-03-16,20250316102059,puzzle-karmine-corp,Puzzle Karmine Corp,Karmine Corp,35.0,35.0,0.0,0,0,0
+2025-03-16,20250316102338,g-pro-x-tkl-rapid,G PRO X TKL RAPID,Karmine Corp,189.95,189.95,0.0,1,0,0
+2025-03-16,20250316102612,hoodie-classique-noir,Hoodie Classique Noir,Karmine Corp,60.0,60.0,0.0,1,7,6
+2025-03-16,20250316102642,porte-cle-karmine-blanc,Porte clé Karmine Blanc,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-03-16,20250316103245,manchette-pro-kit-2025-navy,Manchette Pro Kit 2025 Navy,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-03-16,20250316103427,maillot-major-2025,Maillot Major 2025 [M],Karmine Corp,70.0,70.0,0.0,1,1,0
+2025-03-17,20250317133546,jogging-pro-kit-2025,Jogging Pro Kit 2025,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-03-18,20250318115527,maillot-pro-2025-s,Maillot Pro 2025 [S],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-03-19,20250319114310,short-kcx-3,Short KCX 3,Karmine Shop,40.0,40.0,0.0,1,7,0
+2025-04-29,20250429102408,t-shirt-kcx-3,T-shirt KCX 3,Karmine Shop,30.0,30.0,0.0,1,7,0
+2025-04-29,20250429110310,hoodie-university-noir,Hoodie University Noir,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-04-29,20250429111700,jogging-classique-rose,Jogging Classique Rose,Karmine Corp,50.0,50.0,0.0,1,7,2
+2025-04-29,20250429112155,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-04-29,20250429113637,logitech-g-pro-tkl,Logitech G PRO TKL,Karmine Corp,139.0,139.0,0.0,1,0,0
+2025-04-29,20250429115701,g840,Logitech G840,Karmine Corp,45.0,45.0,0.0,1,0,0
+2025-04-29,20250429120600,porte-cle-karmine-noir,Porte clé Karmine Noir,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-04-29,20250429202947,short-legende-du-club-cabochard,Short Légende Du Club Cabochard,Karmine Corp,40.0,40.0,0.0,1,7,3
+2025-04-29,20250429204037,hoodie-campus-navy,Hoodie Campus Navy,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-04-29,20250429204313,polo-campus-beige,Polo Campus Beige,Karmine Corp,70.0,70.0,0.0,0,7,7
+2025-04-29,20250429204358,maillot-worlds-2024,Maillot Worlds 2024 Non Customisé,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-04-29,20250429204942,varsity-jacket-campus-navy,Varsity Jacket Campus Navy,Karmine Corp,135.0,135.0,0.0,1,7,2
+2025-04-29,20250429205019,sacoche-monogram-noir,Sacoche Monogram Noir,Karmine Corp,40.0,40.0,0.0,1,0,0
+2025-04-29,20250429205455,hoodie-ultra-gris,Hoodie Ultra Gris,Karmine Corp,50.0,50.0,0.0,1,7,5
+2025-04-29,20250429205833,hoodie-speciale-arenes,Hoodie Finally Home,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-04-29,20250429210729,varsity-jacket-campus-rouge,Varsity Jacket Campus Rouge,Karmine Corp,135.0,135.0,0.0,1,7,2
+2025-04-29,20250429210838,cropped-t-shirt-monogram-beige,Cropped T-shirt Monogram Beige,Karmine Corp,30.0,30.0,0.0,1,6,2
+2025-04-29,20250429211156,crewneck-torsade,Pull Torsadé Campus Beige,Karmine Corp,85.0,85.0,0.0,1,7,2
+2025-04-29,20250429211735,pins-karmine-noir,Pin's Karmine Noir,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-04-29,20250429211817,pins-karmine-dore,Pin's Karmine Doré,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-04-29,20250429211938,echarpe-worlds-2024-copie,Écharpe Karmine 2025,Karmine Shop,30.0,30.0,0.0,1,0,0
+2025-04-29,20250429212143,ballon-de-football-americain-campus,Ballon de Football Américain Campus,Karmine Corp,35.0,35.0,0.0,1,0,0
+2025-04-29,20250429212853,t-shirt-campus-beige,T-shirt Campus Beige,Karmine Corp,35.0,35.0,0.0,1,7,2
+2025-04-29,20250429213802,chaussettes-monogram-beige,Paire De Chaussettes Monogram Beige,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-04-29,20250429214035,t-shirt-university-bleu,T-shirt University Bleu,Karmine Corp,35.0,35.0,0.0,1,7,3
+2025-04-29,20250429214233,veste-pro-kit-2025,Veste Pro Kit 2025,Karmine Corp,90.0,90.0,0.0,1,7,6
+2025-04-29,20250429214424,t-shirt-navy-campus,T-shirt Campus Navy,Karmine Corp,35.0,35.0,0.0,1,7,2
+2025-04-29,20250429215129,t-shirt-classique-noir,T-shirt Classique Noir,Karmine Corp,30.0,30.0,0.0,1,7,4
+2025-04-29,20250429215356,polo-karmine-noir,Polo Chroma Noir,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-04-29,20250429220000,veste-kcx-3,Veste KCX 3,Karmine Shop,75.0,75.0,0.0,1,7,0
+2025-04-29,20250429220115,maillot-league-of-its-own,Maillot League Of its Own,Karmine Corp,75.0,75.0,0.0,0,7,7
+2025-04-29,20250429220528,hoodie-campus-beige,Hoodie Campus Beige,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-04-29,20250429220712,chemise-baseball-bleu,Chemise Baseball Bleu,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-04-29,20250429220746,crewneck-knit-noir,Crewneck Knit Noir,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-04-29,20250429221112,hoodie-monogram-noir,Hoodie Monogram Noir,Karmine Corp,75.0,75.0,0.0,1,7,5
+2025-04-29,20250429221149,casquette-campus-bleu,Casquette Campus Navy,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-04-29,20250429221335,pull-zip-knit-beige,Pull Zip Knit Beige,Karmine Corp,80.0,80.0,0.0,1,7,1
+2025-04-29,20250429221917,jogging-kcx-4,Jogging KCX 4,Karmine Corp,65.0,65.0,0.0,1,7,0
+2025-04-29,20250429222239,polo-campus-bleu,Polo Campus Navy,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-04-29,20250429222417,zip-knit-noir,Pull Zip Knit Noir,Karmine Corp,80.0,80.0,0.0,1,7,1
+2025-04-29,20250429222449,t-shirt-saken-2,T-shirt Légende Du Club Saken V2,Karmine Corp,37.0,37.0,0.0,1,7,6
+2025-05-13,20250513090921,pc-portable-omen-transcend-14-fb0162nf,PC portable OMEN Transcend 14-fb0162nf,Karmine Corp,1499.99,1499.99,0.0,0,0,0
+2025-05-13,20250513093350,t-shirt-classique-bleu-royal,T-shirt Classique Bleu Royal,Karmine Corp,30.0,30.0,0.0,1,7,4
+2025-05-13,20250513094609,jogging-pro-kit-2024,Jogging Pro Kit  2024,Karmine Corp,55.0,55.0,0.0,1,7,5
+2025-05-13,20250513094713,hoodie-saken-2,Hoodie Légende du Club Saken V2,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-05-13,20250513095307,hoodie-monogram-beige,Hoodie Monogram Beige,Karmine Corp,75.0,75.0,0.0,1,7,5
+2025-05-13,20250513095442,maillot-kcx-3,Maillot KCX 3 KCORP VS THE WORLDS,Karmine Shop,70.0,70.0,0.0,1,8,6
+2025-05-13,20250513095542,pc-portable-gamer-omen-16-wf1101nf-1,PC portable gamer OMEN 16-wf1101nf,Karmine Corp,1799.99,1799.99,0.0,0,0,0
+2025-05-13,20250513100547,hoodie-university-bleu,Hoodie University Bleu,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-05-13,20250513101246,pc-gamer-omen-35l-gt16-0275nf,PC gamer OMEN 35L GT16-0275nf,Karmine Corp,1299.99,1299.99,0.0,0,0,0
+2025-05-13,20250513101803,hoodie-classique-beige,Hoodie Classique Beige,Karmine Corp,60.0,60.0,0.0,1,7,4
+2025-05-13,20250513103856,cropped-t-shirt-monogram-noir,Cropped T-shirt Monogram Noir,Karmine Corp,30.0,30.0,0.0,1,6,0
+2025-05-13,20250513104100,t-shirt-classique-bleu,T-shirt Classique Bleu,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-05-13,20250513105047,maillot-major-2024,Maillot Major 2024,Karmine Corp,70.0,70.0,0.0,1,7,5
+2025-05-13,20250513110120,porte-cle-kcwin-noir,Porte clé #KCWIN Noir,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-05-20,20250520220703,casquette-essentials-beige,Casquette essentials Beige,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-05-20,20250520220752,polo-chroma-blanc,Polo Chroma Blanc,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-05-20,20250520221402,copie-de-hoodie-classique-blanc,Hoodie Classique Blanc,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-05-20,20250520223033,jogging-pro-kit-2025,Jogging Pro Kit 2025,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-05-20,20250520224035,maillot-kcx-4,Maillot KCX 4,Karmine Corp,70.0,70.0,0.0,1,7,4
+2025-05-20,20250520224724,hoodie-classique-vert,Hoodie Classique Vert,Karmine Corp,60.0,60.0,0.0,1,7,5
+2025-05-20,20250520225447,hoodie-ultra-noir,Hoodie Ultra Noir,Karmine Corp,50.0,50.0,0.0,1,7,0
+2025-05-20,20250520230800,manchette-kcx-4,Manchette KCX 4,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-05-20,20250520231102,t-shirt-classique-rose,T-shirt Classique Rose,Karmine Corp,30.0,30.0,0.0,1,7,5
+2025-05-20,20250520232015,porte-cle-kcorp-navy,Porte clé #KCORP Navy,Karmine Corp,6.0,6.0,0.0,1,0,0
+2025-05-20,20250520232340,maillot-pro-2025,Maillot Pro 2025 [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-05-20,20250520233233,logitech-g733,Logitech G733,Karmine Corp,159.0,159.0,0.0,1,0,0
+2025-05-20,20250520234029,legging-monogram-noir,Legging Monogram Noir,Karmine Corp,35.0,35.0,0.0,1,6,0
+2025-05-22,20250522083703,t-shirt-campus-beige,T-shirt Campus Beige,Karmine Corp,35.0,35.0,0.0,1,7,2
+2025-05-22,20250522083754,t-shirt-navy-campus,T-shirt Campus Navy,Karmine Corp,35.0,35.0,0.0,1,7,1
+2025-05-27,20250527212521,maillot-eternal-2025,Précommande,Karmine Corp,87.0,87.0,0.0,1,0,0
+2025-05-27,20250527212527,manchettes-eternal-2025,Manchettes Eternal 2025,Karmine Corp,30.0,30.0,0.0,1,3,0
+2025-05-27,20250527212527,pantalon-eternal-2025,Précommande,Karmine Corp,60.0,60.0,0.0,1,7,2
+2025-05-27,20250527212529,veste-eternal-2025,Précommande,Karmine Corp,90.0,90.0,0.0,0,7,7
+2025-05-27,20250527212538,maillot-eternal-2025-3xl,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-05-27,20250527212539,maillot-eternal-2025-xl,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-05-27,20250527212614,maillot-eternal-2025-l,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-05-27,20250527212626,maillot-eternal-2025-s,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-05-27,20250527212700,maillot-eternal-2025-2xl,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-05-27,20250527212724,maillot-eternal-2025-xs,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-19,20250619055424,hoodie-ultra-vert,Hoodie Ultra Vert,Karmine Corp,50.0,50.0,0.0,1,7,2
+2025-06-19,20250619055621,maillot-pro-2025-2xl,Maillot Pro 2025 [2XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-06-19,20250619060145,chaussette-monogram-noir,Paire De Chaussettes Monogram Noir,Karmine Corp,10.0,10.0,0.0,0,0,0
+2025-06-19,20250619060423,maillot-pro-2025-l,Maillot Pro 2025 [L],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-06-19,20250619061212,manchette-pro-2024,Manchette Pro 2024,Karmine Corp,25.0,25.0,0.0,0,0,0
+2025-06-19,20250619062102,hoodie-ultra-bleu,Hoodie Ultra Bleu,Karmine Corp,50.0,50.0,0.0,1,7,1
+2025-06-19,20250619062410,lec-champ-piece-of-history-2,LEC CHAMP,Karmine Corp,29.0,29.0,0.0,1,7,5
+2025-06-19,20250619062630,t-shirt-baseball-blanc,T-shirt baseball blanc,Karmine Corp,35.0,35.0,0.0,1,7,0
+2025-06-19,20250619063531,hoodie-saken-1,Hoodie Légende Du Club Saken V1,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-06-19,20250619063612,e-carte-cadeau,E-CARTE CADEAU,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-06-19,20250619064018,logitech-g-pro-x-wireless,Logitech G PRO X2 Lightspeed,Karmine Corp,269.0,269.0,0.0,1,0,0
+2025-06-19,20250619064128,jogging-classique-noir,Jogging Classique Noir,Karmine Corp,50.0,50.0,0.0,1,7,6
+2025-06-19,20250619065018,t-shirt-university-gris,T-shirt University Gris,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-06-19,20250619065738,manchette-pro-kit-2025-white,Manchette Pro Kit 2025 White,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-06-19,20250619070209,maillot-pro-2025-xl,Maillot Pro 2025 [XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-06-19,20250619070455,t-shirt-monogram-noir,T-shirt Monogram Noir,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-06-19,20250619071104,manchette-world-2024,Manchette Worlds 2024,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-06-19,20250619071352,hoodie-classique-gris,Hoodie Classique Gris,Karmine Corp,60.0,60.0,0.0,1,7,4
+2025-06-19,20250619071457,maillot-pro-2025-xs,Maillot Pro 2025 [XS],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-06-19,20250619071558,maillot-worlds-2024,Maillot Worlds 2024 Non Customisé,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-06-19,20250619071915,maillot-pro-2025,Maillot Pro 2025 [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-06-19,20250619072330,jogging-kcx-3,Jogging KCX 3,Karmine Shop,55.0,55.0,0.0,1,7,2
+2025-06-19,20250619072748,c922,Logitech C922,Karmine Corp,99.0,99.0,0.0,1,0,0
+2025-06-19,20250619072803,t-shirt-university-beige,T-shirt University Beige,Karmine Corp,35.0,35.0,0.0,1,7,5
+2025-06-19,20250619072900,manchette-pro-kit-2025-navy,Manchette Pro Kit 2025 Navy,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-06-24,20250624170206,logitech-g735,Logitech G735,Karmine Corp,229.0,229.0,0.0,1,0,0
+2025-06-28,20250628164138,maillot-eternal-2025,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-28,20250628164138,polo-chroma-blanc,Polo Chroma Blanc,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-06-28,20250628164138,pantalon-eternal-2025,Précommande,Karmine Corp,60.0,60.0,0.0,1,7,5
+2025-06-28,20250628164138,crewneck-knit-beige,Crewneck Knit Beige,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-06-28,20250628164138,zip-knit-noir,Pull Zip Knit Noir,Karmine Corp,80.0,80.0,0.0,1,7,1
+2025-06-28,20250628164138,t-shirt-campus-beige,T-shirt Campus Beige,Karmine Corp,35.0,35.0,0.0,1,7,2
+2025-06-28,20250628164138,crewneck-knit-noir,Crewneck Knit Noir,Karmine Corp,75.0,75.0,0.0,1,7,1
+2025-06-28,20250628164139,casquette-campus-rouge,Casquette Campus Rouge,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-06-28,20250628164139,manchettes-eternal-2025,Manchettes Eternal 2025,Karmine Corp,30.0,30.0,0.0,1,3,0
+2025-06-28,20250628164140,casquette-campus-bleu,Casquette Campus Navy,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-06-28,20250628164140,varsity-jacket-campus-navy,Varsity Jacket Campus Navy,Karmine Corp,135.0,135.0,0.0,1,7,2
+2025-06-28,20250628164141,quersus-vaos-2-karmine,Quersus VAOS.3 Karmine,Karmine Corp,549.0,549.0,0.0,1,0,0
+2025-06-28,20250628164141,pins-karmine-dore,Pin's Karmine Doré,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-06-28,20250628164141,porte-cle-kcwin-noir,Porte clé #KCWIN Noir,Karmine Corp,6.0,6.0,0.0,0,0,0
+2025-06-28,20250628164141,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-06-28,20250628164141,veste-eternal-2025,Précommande,Karmine Corp,90.0,90.0,0.0,0,7,7
+2025-06-28,20250628164141,t-shirt-navy-campus,T-shirt Campus Navy,Karmine Corp,35.0,35.0,0.0,1,7,1
+2025-06-28,20250628164142,hoodie-classique-bleu-royal,Hoodie Classique Bleu royal,Karmine Corp,60.0,60.0,0.0,1,7,5
+2025-06-28,20250628164142,pull-zip-knit-beige,Pull Zip Knit Beige,Karmine Corp,80.0,80.0,0.0,1,7,0
+2025-06-28,20250628164142,varsity-jacket-campus-rouge,Varsity Jacket Campus Rouge,Karmine Corp,135.0,135.0,0.0,1,7,2
+2025-06-28,20250628164709,maillot-eternal-2025-s,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-28,20250628164710,maillot-eternal-2025-3xl,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-28,20250628164712,maillot-eternal-2025-xs,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-28,20250628164712,maillot-eternal-2025-2xl,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-28,20250628164714,maillot-eternal-2025-xl,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-06-28,20250628164714,maillot-eternal-2025-l,Précommande,Karmine Corp,75.0,75.0,0.0,1,0,0
+2025-07-17,20250717112800,logitech-g-pro,Logitech G PRO,Karmine Corp,129.0,129.0,0.0,1,0,0
+2025-07-17,20250717113752,maillot-eternal-2025-xs,Maillot Eternal 2025 [XS],Karmine Corp,75.0,75.0,0.0,1,1,0
+2025-07-17,20250717114644,maillot-eternal-2025-2xl,Maillot Eternal 2025 [2XL],Karmine Corp,75.0,75.0,0.0,0,1,1
+2025-07-17,20250717114951,short-legende-du-club-cabochard,Short Légende Du Club Cabochard,Karmine Corp,40.0,40.0,0.0,1,7,5
+2025-07-17,20250717115416,short-kcx-3,Short KCX 3,Karmine Shop,40.0,40.0,0.0,1,7,0
+2025-07-17,20250717115523,etiquette-de-valise-karmine-navy,Étiquette de valise Karmine Navy,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-07-17,20250717115914,manchettes-eternal-2025,Manchettes Eternal 2025,Karmine Corp,30.0,30.0,0.0,1,3,0
+2025-07-17,20250717120336,t-shirt-classique-beige,T-shirt Classique Beige,Karmine Corp,30.0,30.0,0.0,1,7,6
+2025-07-17,20250717120538,veste-kcx-4,Veste KCX 4,Karmine Corp,77.0,77.0,0.0,1,7,0
+2025-07-17,20250717120642,neon-karminecorp,Néons Karmine Corp,Karmine Corp,170.0,170.0,0.0,0,0,0
+2025-07-17,20250717121022,hoodie-speciale-arenes,Hoodie Finally Home,Karmine Corp,70.0,70.0,0.0,1,7,2
+2025-07-17,20250717121609,crewneck-torsade,Pull Torsadé Campus Beige,Karmine Corp,85.0,85.0,0.0,1,7,3
+2025-07-17,20250717121634,manchette-world-2024,Manchette Worlds 2024,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-07-17,20250717121703,hoodie-classique-marron,Hoodie Classique Marron,Karmine Corp,60.0,60.0,0.0,1,7,2
+2025-07-17,20250717121904,g502-x-plus,Logitech G502 X Plus,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-07-17,20250717122016,pins-karmine-dore,Pin's Karmine Doré,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-07-17,20250717122252,t-shirt-monogram-beige,T-shirt Monogram Beige,Karmine Corp,35.0,35.0,0.0,1,7,1
+2025-07-17,20250717122559,yeti-x,Logitech Yeti X,Karmine Corp,159.0,159.0,0.0,1,0,0
+2025-07-17,20250717122648,ballon-de-football-americain-campus,Ballon de Football Américain Campus,Karmine Corp,35.0,35.0,0.0,1,0,0
+2025-07-17,20250717123401,drapeau-damier-ice-blue,Drapeau Damier Ice Blue,Karmine Corp,25.0,25.0,0.0,1,0,0
+2025-07-17,20250717123432,g-pro-x-superlight-2-dex-lightspeed,G PRO X SUPERLIGHT 2 DEX LIGHTSPEED,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-07-17,20250717123928,quersus-vaos-2-karmine,Quersus VAOS.3 Karmine,Karmine Corp,549.0,549.0,0.0,1,0,0
+2025-07-17,20250717124001,maillot-eternal-2025-xl,Maillot Eternal 2025 [XL],Karmine Corp,75.0,75.0,0.0,1,1,0
+2025-07-17,20250717124246,logitech-g-pro-tkl,Logitech G PRO TKL,Karmine Corp,139.0,139.0,0.0,1,0,0
+2025-07-17,20250717124535,casquette-essentials-noir,Casquette essentials Noir,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-07-17,20250717124606,maillot-eternal-2025-3xl,Maillot Eternal 2025 [3XL],Karmine Corp,75.0,75.0,0.0,1,1,0
+2025-07-17,20250717124812,manchette-major-2025,Manchettes Major 2025,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-07-17,20250717125010,t-shirt-navy-campus,T-shirt Campus Navy,Karmine Corp,35.0,35.0,0.0,1,7,2
+2025-07-17,20250717125104,hoodie-classique-bleu,Hoodie Classique Bleu,Karmine Corp,60.0,60.0,0.0,1,7,5
+2025-07-17,20250717125606,drapeau-navy-2025,Drapeau Navy 2025,Karmine Corp,25.0,25.0,0.0,1,0,0
+2025-07-17,20250717125959,g-pro-x-superlight-2,G PRO X SUPERLIGHT 2,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-07-17,20250717130402,maillot-eternal-2025-s,Maillot Eternal 2025 [S],Karmine Corp,75.0,75.0,0.0,1,1,0
+2025-07-17,20250717130722,veste-eternal-2025,Veste Eternal 2025,Karmine Corp,90.0,90.0,0.0,0,7,7
+2025-07-17,20250717131100,pull-zip-knit-beige,Pull Zip Knit Beige,Karmine Corp,80.0,80.0,0.0,1,7,1
+2025-07-17,20250717131156,g-pro-x-tkl-rapid,G PRO X TKL RAPID,Karmine Corp,189.95,189.95,0.0,1,0,0
+2025-07-17,20250717131545,porte-cle-karmine-blanc,Porte clé Karmine Blanc,Karmine Corp,6.0,6.0,0.0,0,0,0
+2025-07-17,20250717131642,pantalon-eternal-2025,Pantalon Eternal 2025,Karmine Corp,60.0,60.0,0.0,1,7,6
+2025-07-17,20250717131938,maillot-eternal-2025,Maillot Eternal 2025 [M],Karmine Corp,75.0,75.0,0.0,1,1,0
+2025-07-17,20250717132040,porte-cle-kcwin-noir,Porte clé #KCWIN Noir,Karmine Corp,6.0,6.0,0.0,0,0,0
+2025-07-17,20250717132055,maillot-major-2025,Maillot Major 2025 [M],Karmine Corp,70.0,70.0,0.0,0,1,1
+2025-07-19,20250719050311,pins-karmine-noir,Pin's Karmine Noir,Karmine Corp,4.5,4.5,0.0,1,0,0
+2025-07-20,20250720164050,track-suit-eclipse,Track Suit Eclipse,Karmine Corp,90.0,90.0,0.0,1,7,0
+2025-08-03,20250803092209,porte-cle-kcorp-navy,Porte clé #KCORP Navy,Karmine Corp,6.0,6.0,0.0,0,0,0
+2025-08-06,20250806080910,casquette-campus-rouge,Casquette Campus Rouge,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-08-06,20250806081225,hoodie-campus-navy,Hoodie Campus Navy,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-08-06,20250806082157,casquette-blanche-karmine-bluelock,Casquette Blanche Karmine | Blue Lock,Karmine Shop,24.0,24.0,0.0,1,0,0
+2025-08-06,20250806082357,casquette-essentials-beige,Casquette essentials Beige,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-08-06,20250806082434,hoodie-noir-karmine-bluelock,Hoodie Navy Karmine | Blue Lock,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-08-06,20250806082809,copie-de-hoodie-classique-blanc,Hoodie Classique Blanc,Karmine Corp,60.0,60.0,0.0,1,7,3
+2025-08-06,20250806083622,cropped-t-shirt-monogram-beige,Cropped T-shirt Monogram Beige,Karmine Corp,30.0,30.0,0.0,1,6,2
+2025-08-06,20250806083851,hoodie-university-noir,Hoodie University Noir,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-08-06,20250806084358,maillot-kcx-4,Maillot KCX 4,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-08-06,20250806084456,maillot-kcx-3,Maillot KCX 3 KCORP VS THE WORLDS,Karmine Shop,70.0,70.0,0.0,1,8,6
+2025-08-06,20250806085042,hoodie-university-bleu,Hoodie University Bleu,Karmine Corp,65.0,65.0,0.0,1,7,6
+2025-08-06,20250806085738,hoodie-ultra-noir,Hoodie Ultra Noir,Karmine Corp,50.0,50.0,0.0,1,7,1
+2025-08-06,20250806090140,chaussettes-monogram-beige,Paire De Chaussettes Monogram Beige,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-08-06,20250806090741,t-shirt-classique-rose,T-shirt Classique Rose,Karmine Corp,30.0,30.0,0.0,1,7,5
+2025-08-06,20250806091054,t-shirt-classique-noir,T-shirt Classique Noir,Karmine Corp,30.0,30.0,0.0,1,7,5
+2025-08-06,20250806091646,g840,Logitech G840,Karmine Corp,45.0,45.0,0.0,1,0,0
+2025-08-06,20250806091902,veste-kcx-3,Veste KCX 3,Karmine Shop,75.0,75.0,0.0,1,7,0
+2025-08-06,20250806092008,casquette-navy-karmine-bluelock,Casquette Navy Karmine | Blue Lock,Karmine Shop,24.0,24.0,0.0,1,0,0
+2025-08-06,20250806092040,cropped-t-shirt-monogram-noir,Cropped T-shirt Monogram Noir,Karmine Corp,30.0,30.0,0.0,1,6,0
+2025-08-06,20250806092428,chemise-baseball-bleu,Chemise Baseball Bleu,Karmine Corp,65.0,65.0,0.0,0,7,7
+2025-08-06,20250806092630,logitech-g733,Logitech G733,Karmine Corp,159.0,159.0,0.0,1,0,0
+2025-08-06,20250806092729,puzzle-karmine-corp,Puzzle Karmine Corp,Karmine Corp,35.0,35.0,0.0,1,0,0
+2025-08-06,20250806092827,hoodie-monogram-noir,Hoodie Monogram Noir,Karmine Corp,75.0,75.0,0.0,1,7,5
+2025-08-06,20250806092858,casquette-campus-bleu,Casquette Campus Navy,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-08-06,20250806093126,crewneck-knit-beige,Crewneck Knit Beige,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-08-06,20250806093156,jogging-kcx-4,Jogging KCX 4,Karmine Corp,65.0,65.0,0.0,1,7,0
+2025-08-06,20250806093747,zip-knit-noir,Pull Zip Knit Noir,Karmine Corp,80.0,80.0,0.0,1,7,2
+2025-08-06,20250806093914,t-shirt-saken-2,T-shirt Légende Du Club Saken V2,Karmine Corp,37.0,37.0,0.0,1,7,6
+2025-08-08,20250808104112,t-shirt-noir-karmine-bluelock,T-Shirt Navy Karmine | Blue Lock,Karmine Corp,28.0,28.0,0.0,1,7,0
+2025-08-18,20250818121635,hoodie-campus-beige,Hoodie Campus Beige,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-08-18,20250818190225,varsity-jacket-campus-navy,Varsity Jacket Campus Navy,Karmine Corp,135.0,135.0,0.0,1,7,2
+2025-08-23,20250823154410,manchettes-eternal-2025,Manchettes Eternal 2025,Karmine Corp,30.0,30.0,0.0,1,3,0
+2025-08-24,20250824010814,track-suit-eclipse,Track Suit Eclipse,Karmine Corp,90.0,90.0,0.0,1,7,0
+2025-08-24,20250824110726,maillot-noir-karmine-bluelock,Maillot Noir Karmine | Blue Lock,Karmine Corp,40.0,40.0,0.0,1,7,0
+2025-08-24,20250824223015,maillot-bleu-karmine-bluelock,Maillot Bleu Karmine | Blue Lock,Karmine Corp,40.0,40.0,0.0,1,7,0
+2025-08-25,20250825025435,polo-campus-bleu,Polo Campus Navy,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-08-25,20250825110124,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-08-25,20250825204441,porte-cle-kcwin-noir,Porte clé #KCWIN Noir,Karmine Corp,6.0,6.0,0.0,0,0,0
+2025-08-27,20250827060338,t-shirt-gris-karmine-bluelock,T-Shirt Gris Karmine | Blue Lock,Karmine Corp,28.0,28.0,0.0,1,7,0
+2025-08-28,20250828000703,polo-karmine-noir,Polo Chroma Noir,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-08-28,20250828173140,quersus-vaos-2-karmine,Quersus VAOS.3 Karmine,Karmine Corp,899.0,899.0,0.0,1,0,0
+2025-08-31,20250831014540,track-pants-eclipse,Track Pants Eclipse,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-08-31,20250831045004,sacoche-monogram-noir,Sacoche Monogram Noir,Karmine Corp,40.0,40.0,0.0,1,0,0
+2025-08-31,20250831085309,maillot-eternal-2025,Maillot Eternal 2025 [M],Karmine Corp,75.0,75.0,0.0,0,1,1
+2025-08-31,20250831150217,tapis-g840-logitech-x-karmine-corp,Tapis G840 Logitech x Karmine Corp,Karmine Corp,45.0,45.0,0.0,1,0,0
+2025-08-31,20250831181537,echarpe-worlds-2024-copie,Écharpe Karmine 2025,Karmine Shop,30.0,30.0,0.0,1,0,0
+2025-08-31,20250831222824,varsity-jacket-campus-rouge,Varsity Jacket Campus Rouge,Karmine Corp,135.0,135.0,0.0,1,7,2
+2025-09-04,20250904055254,maillot-major-2025,Maillot Major 2025 [M],Karmine Corp,70.0,70.0,0.0,0,1,1
+2025-09-05,20250905033641,crewneck-gris-karmine-bluelock,Crewneck Gris Karmine | Blue Lock,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-09-13,20250913131419,tapis-g640-logitech-x-karmine-corp,Tapis G640 Logitech x Karmine Corp,Karmine Corp,20.0,35.0,0.4286,1,0,0
+2025-09-13,20250913131800,veste-denim,Veste Denim,Karmine Corp,115.0,115.0,0.0,1,7,0
+2025-09-13,20250913132042,t-shirt-kcx-3,T-shirt KCX 3,Karmine Shop,30.0,30.0,0.0,1,7,0
+2025-09-13,20250913132254,chaussettes-navy,Pack de Chaussettes Blanches et Navy,Karmine Corp,15.0,15.0,0.0,1,0,0
+2025-09-13,20250913132658,veste-pro-kit-worlds-2025,Veste Pro Kit Worlds 2025,Karmine Corp,90.0,90.0,0.0,1,7,0
+2025-09-13,20250913132739,t-shirt-classique-bleu-royal,T-shirt Classique Bleu Royal,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-09-13,20250913133014,polo-chroma-blanc,Polo Chroma Blanc,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-09-13,20250913133858,hoodie-ultra-gris,Hoodie Ultra Gris,Karmine Corp,50.0,50.0,0.0,1,7,5
+2025-09-13,20250913134931,t-shirt-baseball-bleu,T-shirt baseball bleu,Karmine Corp,35.0,35.0,0.0,1,7,5
+2025-09-13,20250913135514,maillot-2025-ultra,Maillot Ultra 2025,Karmine Corp,65.0,65.0,0.0,1,7,0
+2025-09-13,20250913135835,jogging-classique-rose,Jogging Classique Rose,Karmine Corp,50.0,50.0,0.0,1,7,6
+2025-09-13,20250913135927,hoodie-classique-vert,Hoodie Classique Vert,Karmine Corp,60.0,60.0,0.0,0,7,7
+2025-09-13,20250913140250,hoodie-ultra-marron,Hoodie Ultra Marron,Karmine Corp,50.0,50.0,0.0,0,7,7
+2025-09-13,20250913140715,maillot-worlds-rouge-2025,Maillot Worlds Rouge 2025,Karmine Corp,80.0,80.0,0.0,1,7,0
+2025-09-13,20250913141027,tapis-g840-logitech-x-karmine-corp,Tapis G840 Logitech x Karmine Corp,Karmine Corp,45.0,45.0,0.0,1,0,0
+2025-09-13,20250913141658,chemise-light-blue,Chemise light blue,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-09-13,20250913141806,casquette-denim,Casquette Denim,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-09-13,20250913143232,maillot-worlds-bleu-2025,Maillot Worlds Bleu 2025,Karmine Corp,80.0,80.0,0.0,1,7,0
+2025-09-13,20250913143641,maillot-league-of-its-own,Maillot League Of its Own,Karmine Corp,75.0,75.0,0.0,0,7,7
+2025-09-13,20250913143924,t-shirt-classique-bleu,T-shirt Classique Bleu,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-09-13,20250913144059,hoodie-campus-beige,Hoodie Campus Beige,Karmine Corp,75.0,75.0,0.0,1,7,1
+2025-09-13,20250913144950,legging-monogram-noir,Legging Monogram Noir,Karmine Corp,35.0,35.0,0.0,1,6,0
+2025-09-13,20250913145300,polo-campus-bleu,Polo Campus Navy,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-09-13,20250913145611,pantalon-pro-kit-worlds-2025,Pantalon Pro Kit Worlds 2025,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-09-16,20250916021537,manchette-major-2025,Manchettes Major 2025,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-09-17,20250917073545,manchette-world-2024,Manchette Worlds 2024,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-09-17,20250917074317,hoodie-ultra-vert,Hoodie Ultra Vert,Karmine Corp,50.0,50.0,0.0,1,7,3
+2025-09-17,20250917074619,manchettes-eternal-2025,Manchettes Eternal 2025,Karmine Corp,30.0,30.0,0.0,1,3,0
+2025-09-17,20250917075411,sacoche-monogram-noir,Sacoche Monogram Noir,Karmine Corp,40.0,40.0,0.0,1,0,0
+2025-09-17,20250917080111,logitech-g915,Logitech G915,Karmine Corp,269.0,269.0,0.0,1,0,0
+2025-09-17,20250917081022,lec-champ-piece-of-history-2,LEC CHAMP,Karmine Corp,29.0,29.0,0.0,0,7,7
+2025-09-17,20250917081354,hoodie-monogram-beige,Hoodie Monogram Beige,Karmine Corp,75.0,75.0,0.0,1,7,5
+2025-09-17,20250917081601,hoodie-saken-1,Hoodie Légende Du Club Saken V1,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-09-17,20250917081751,echarpe-worlds-2024-copie,Écharpe Karmine 2025,Karmine Shop,30.0,30.0,0.0,1,0,0
+2025-09-17,20250917081846,e-carte-cadeau,E-CARTE CADEAU,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-09-17,20250917082100,hoodie-classique-bleu-royal,Hoodie Classique Bleu royal,Karmine Corp,60.0,60.0,0.0,1,7,6
+2025-09-17,20250917082453,jogging-pro-kit-2025,Jogging Pro Kit 2025,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-09-17,20250917083704,hoodie-classique-beige,Hoodie Classique Beige,Karmine Corp,60.0,60.0,0.0,1,7,4
+2025-09-17,20250917084138,t-shirt-university-bleu,T-shirt University Bleu,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-09-17,20250917084217,veste-pro-kit-2025,Veste Pro Kit 2025,Karmine Corp,90.0,90.0,0.0,1,7,0
+2025-09-17,20250917084328,manchette-kcx-4,Manchette KCX 4,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-09-17,20250917084841,t-shirt-arenes,T-shirt Finally Home,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-09-17,20250917085036,manchette-pro-kit-2025-white,Manchette Pro Kit 2025 White,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-09-17,20250917085901,maillot-pro-2025,Maillot Pro 2025 [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-09-17,20250917090757,hoodie-classique-gris,Hoodie Classique Gris,Karmine Corp,60.0,60.0,0.0,1,7,5
+2025-09-17,20250917092342,manchette-pro-kit-2025-navy,Manchette Pro Kit 2025 Navy,Karmine Corp,30.0,30.0,0.0,0,0,0
+2025-10-14,20251014220944,maillot-eternal-2025-xs,Maillot Eternal 2025 [XS],Karmine Corp,75.0,75.0,0.0,0,1,1
+2025-10-14,20251014221913,short-legende-du-club-cabochard,Short Légende Du Club Cabochard,Karmine Corp,40.0,40.0,0.0,1,7,5
+2025-10-14,20251014222254,short-kcx-3,Short KCX 3,Karmine Shop,40.0,40.0,0.0,1,7,0
+2025-10-14,20251014223532,chaussette-monogram-noir,Paire De Chaussettes Monogram Noir,Karmine Corp,10.0,10.0,0.0,0,0,0
+2025-10-14,20251014223653,hoodie-gris-celio-x-karmine-corp,Hoodie Gris Celio x Karmine Corp,Karmine Corp,39.99,39.99,0.0,0,7,7
+2025-10-14,20251014223814,veste-noire-celio-x-karmine-corp,Veste Noire Celio x Karmine Corp,Karmine Corp,99.99,99.99,0.0,0,7,7
+2025-10-14,20251014224450,hoodie-noir-celio-x-karmine-corp,Hoodie Noir Celio x Karmine Corp,Karmine Corp,45.99,45.99,0.0,0,7,7
+2025-10-14,20251014224651,hoodie-speciale-arenes,Hoodie Finally Home,Karmine Corp,70.0,70.0,0.0,1,7,2
+2025-10-14,20251014225133,brassiere-monogram-noir,Brassière Monogram Noir,Karmine Corp,30.0,30.0,0.0,1,6,0
+2025-10-14,20251014230217,hoodie-ultra-bleu,Hoodie Ultra Bleu,Karmine Corp,50.0,50.0,0.0,1,7,2
+2025-10-14,20251014230338,hoodie-saken-2,Hoodie Légende du Club Saken V2,Karmine Corp,70.0,70.0,0.0,1,7,6
+2025-10-14,20251014230508,t-shirt-baseball-blanc,T-shirt baseball blanc,Karmine Corp,35.0,35.0,0.0,1,7,1
+2025-10-14,20251014231806,ballon-de-football-americain-campus,Ballon de Football Américain Campus,Karmine Corp,35.0,35.0,0.0,1,0,0
+2025-10-14,20251014232154,logitech-g-pro-x-wireless,Logitech G PRO X2 Lightspeed,Karmine Corp,269.0,269.0,0.0,1,0,0
+2025-10-14,20251014232343,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-10-14,20251014232656,drapeau-damier-ice-blue,Drapeau Damier Ice Blue,Karmine Corp,25.0,25.0,0.0,1,0,0
+2025-10-14,20251014232736,g-pro-x-superlight-2-dex-lightspeed,G PRO X SUPERLIGHT 2 DEX LIGHTSPEED,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-10-14,20251014233013,quersus-vaos-2-karmine,Quersus VAOS.3 Karmine,Karmine Corp,549.0,549.0,0.0,1,0,0
+2025-10-14,20251014233237,chaussettes-monogram-beige,Paire De Chaussettes Monogram Beige,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-10-14,20251014234627,t-shirt-monogram-noir,T-shirt Monogram Noir,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-10-14,20251014234748,t-shirt-gris-celio-x-karmine-corp,T-Shirt Gris Celio x Karmine Corp,Karmine Corp,25.99,25.99,0.0,0,7,7
+2025-10-14,20251014234825,t-shirt-blanc-celio-x-karmine-corp,T-Shirt Blanc Celio x Karmine Corp,Karmine Corp,25.99,25.99,0.0,0,7,7
+2025-10-14,20251014234903,g-pro-x-superlight-2,G PRO X SUPERLIGHT 2,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-10-14,20251014235018,casquette-navy-karmine-bluelock,Casquette Navy Karmine | Blue Lock,Karmine Shop,24.0,24.0,0.0,1,0,0
+2025-10-14,20251014235057,t-shirt-classique-blanc,T-shirt Classique Blanc,Karmine Corp,30.0,30.0,0.0,0,7,7
+2025-10-14,20251014235431,maillot-eternal-2025-s,Maillot Eternal 2025 [S],Karmine Corp,75.0,75.0,0.0,0,1,1
+2025-10-14,20251014235722,veste-eternal-2025,Veste Eternal 2025,Karmine Corp,90.0,90.0,0.0,1,7,6
+2025-10-15,20251015000253,jogging-kcx-3,Jogging KCX 3,Karmine Shop,55.0,55.0,0.0,1,7,2
+2025-10-15,20251015000734,c922,Logitech C922,Karmine Corp,99.0,99.0,0.0,1,0,0
+2025-10-15,20251015000807,t-shirt-university-beige,T-shirt University Beige,Karmine Corp,35.0,35.0,0.0,1,7,6
+2025-10-15,20251015001000,maillot-eternal-2025,Maillot Eternal 2025 [M],Karmine Corp,75.0,75.0,0.0,0,1,1
+2025-10-16,20251016183924,logitech-g-pro-x-superlight,Logitech G PRO X Superlight,Karmine Corp,169.0,169.0,0.0,1,0,0
+2025-10-16,20251016195548,drapeau-damier-navy,Drapeau Damier Navy,Karmine Corp,25.0,25.0,0.0,1,0,0
+2025-10-18,20251018210117,manchettes-rouges-worlds-2025,Manchettes Worlds Rouges 2025,Karmine Corp,30.0,30.0,0.0,1,3,1
+2025-10-25,20251025041356,billets-kcx-5,Billets KCX 5,Karmine Corp,45.0,45.0,0.0,1,0,0
+2025-10-26,20251026013035,maillot-pro-2025-l,Maillot Pro 2025 [L],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-11-04,20251104175632,maillot-pro-2025-s,Maillot Pro 2025 [S],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-11-06,20251106190711,maillot-pro-2025-3xl,Maillot Pro 2025 [3XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-11-07,20251107212217,pull-zip-knit-rouge,FW25,Karmine Corp,80.0,80.0,0.0,1,7,0
+2025-11-07,20251107212337,manchettes-rouges-worlds-2025,Manchettes Worlds Rouges 2025,Karmine Corp,30.0,30.0,0.0,1,3,1
+2025-11-07,20251107212601,crewneck-knit-rouge,FW25,Karmine Corp,75.0,75.0,0.0,1,7,0
+2025-11-07,20251107213759,chaussettes-navy,Pack de Chaussettes Blanches et Navy,Karmine Corp,15.0,15.0,0.0,1,0,0
+2025-11-07,20251107213901,pantalon-denim,Pantalon Denim,Karmine Corp,85.0,85.0,0.0,1,7,0
+2025-11-07,20251107214803,polo-karmine-noir,Polo Chroma Noir,Karmine Corp,70.0,70.0,0.0,1,7,1
+2025-11-07,20251107215842,t-shirt-blanc,T-Shirt Blanc,Karmine Corp,35.0,35.0,0.0,1,7,0
+2025-11-07,20251107220354,fw25-le-tee-boxy-bordeaux,FW25,Karmine Corp,30.0,30.0,0.0,1,7,1
+2025-11-07,20251107221001,chemise-light-blue,Chemise light blue,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-11-07,20251107222128,maillot-major-2025,Maillot Major 2025 [M],Karmine Corp,70.0,70.0,0.0,0,1,1
+2025-11-07,20251107222152,maillot-worlds-bleu-2025,Maillot Worlds Bleu 2025,Karmine Corp,80.0,80.0,0.0,0,7,7
+2025-11-07,20251107222441,fw25-le-gilet-noir,FW25,Karmine Corp,85.0,85.0,0.0,1,7,0
+2025-11-07,20251107222556,casquette-denim,Casquette Denim,Karmine Corp,30.0,30.0,0.0,1,0,0
+2025-11-07,20251107222626,jogging-kcx-4,Jogging KCX 4,Karmine Corp,65.0,65.0,0.0,1,7,0
+2025-11-07,20251107222738,veste-kcx-4,Veste KCX 4,Karmine Corp,77.0,77.0,0.0,1,7,0
+2025-11-07,20251107223907,fw25-le-tee-boxy-noir,FW25,Karmine Corp,30.0,30.0,0.0,1,7,0
+2025-11-07,20251107231322,fw25-le-pull-noir,FW25,Karmine Corp,70.0,70.0,0.0,1,7,0
+2025-11-07,20251107232024,pantalon-pro-kit-worlds-2025,Pantalon Pro Kit Worlds 2025,Karmine Corp,60.0,60.0,0.0,1,7,0
+2025-11-09,20251109081006,maillot-pro-2025-xs,Maillot Pro 2025 [XS],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-11-11,20251111141834,maillot-pro-2025-xl,Maillot Pro 2025 [XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2025-12-15,20251215055312,fw25-le-jogging-noir,FW25,Karmine Corp,51.99,74.99,0.3067,1,7,0
+2025-12-22,20251222001907,crewneck-knit-rouge,FW25,Karmine Corp,74.99,74.99,0.0,1,7,0
+2025-12-22,20251222062236,maillot-pro-2025,Maillot Pro 2025 [M],Karmine Corp,79.99,79.99,0.0,1,1,0
+2025-12-27,20251227090041,e-carte-cadeau,E-CARTE CADEAU,Karmine Corp,10.0,10.0,0.0,1,0,0
+2025-12-29,20251229224207,fw25-le-tee-boxy-noir,FW25,Karmine Corp,29.99,29.99,0.0,1,7,2
+2025-12-30,20251230161305,polo-chroma-blanc,Polo Chroma Blanc,Karmine Corp,69.99,69.99,0.0,1,7,5
+2026-01-04,20260104192957,fw25-le-gilet-noir,FW25,Karmine Corp,84.99,84.99,0.0,1,7,0
+2026-01-06,20260106035509,maillot-rouge-basket,Maillot de Basket Rouge,Karmine Corp,65.0,65.0,0.0,1,7,0
+2026-01-06,20260106041247,crewneck-knit-rouge,FW25,Karmine Corp,74.99,74.99,0.0,1,7,0
+2026-01-06,20260106042602,maillot-bleu-basket,Maillot de Basket Bleu,Karmine Corp,65.0,65.0,0.0,1,7,0
+2026-01-06,20260106044145,manchettes-rouge-basket,Manchettes Rouge Basket,Karmine Corp,30.0,30.0,0.0,1,3,0
+2026-01-06,20260106054658,short-bleu-basket,Short de Basket Bleu,Karmine Corp,54.0,54.0,0.0,1,7,0
+2026-01-06,20260106072027,ballon-de-basket,Ballon de basket,Karmine Corp,40.0,40.0,0.0,1,0,0
+2026-01-06,20260106081600,fw25-le-tee-boxy-noir,FW25,Karmine Corp,29.99,29.99,0.0,1,7,2
+2026-01-06,20260106084745,fw25-le-gilet-bordeaux,FW25,Karmine Corp,84.99,84.99,0.0,1,7,0
+2026-01-06,20260106135858,fw25-le-pull-noir,FW25,Karmine Corp,69.99,69.99,0.0,1,7,1
+2026-01-06,20260106183638,fw25-le-tee-boxy-bordeaux,FW25,Karmine Corp,29.99,29.99,0.0,1,7,0
+2026-01-07,20260107220719,maillot-pro-2026-rouge-3xl,Maillot Pro 2026 Rouge [3XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-07,20260107220734,maillot-pro-2026-rouge-s,Maillot Pro 2026 Rouge [S],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-07,20260107220743,maillot-pro-2026-rouge-l,Maillot Pro 2026 Rouge [L],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-07,20260107220801,maillot-pro-2026-rouge,Maillot Pro 2026 Rouge [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-07,20260107221007,maillot-pro-2026-rouge-xl,Maillot Pro 2026 Rouge [XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-08,20260108024830,maillot-pro-2026-bleu-2xl,Maillot Pro 2026 Bleu [2XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-08,20260108062159,maillot-pro-2026-bleu-3xl,Maillot Pro 2026 Bleu [3XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-08,20260108062953,maillot-pro-2026-bleu-l,Maillot Pro 2026 Bleu [L],Karmine Corp,96.0,96.0,0.0,1,1,0
+2026-01-08,20260108072508,maillot-pro-2026-rouge-xs,Maillot Pro 2026 Rouge [XS],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-08,20260108082630,maillot-pro-2026-rouge-2xl,Maillot Pro 2026 Rouge [2XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-01-08,20260108140137,maillot-pro-2026-bleu-xl,Maillot Pro 2026 Bleu [XL],Karmine Corp,132.0,132.0,0.0,1,1,0
+2026-01-17,20260117221303,pack-argent,PRÉCOMMANDE,Karmine Corp,45.0,45.0,0.0,0,0,0
+2026-01-17,20260117221331,pack-bronze,PRÉCOMMANDE,Karmine Corp,36.0,36.0,0.0,0,0,0
+2026-01-17,20260117221333,display-24-boosters,PRÉCOMMANDE,Karmine Corp,165.0,165.0,0.0,0,0,0
+2026-01-17,20260117221353,pack-diamant,PRÉCOMMANDE,Karmine Corp,270.0,270.0,0.0,0,0,0
+2026-01-17,20260117221403,pack-platine,PRÉCOMMANDE,Karmine Corp,170.0,170.0,0.0,0,0,0
+2026-02-04,20260204032904,maillot-pro-2026-bleu-3xl,Maillot Pro 2026 Bleu [3XL],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-02-11,20260211124549,pull-zip-knit-rouge,FW25,Karmine Corp,79.99,79.99,0.0,1,7,0
+2026-02-13,20260213201058,polo-karmine-noir,Polo Chroma Noir,Karmine Corp,41.99,70.0,0.4001,1,7,6
+2026-02-14,20260214002414,short-rouge-basket,Short de Basket Rouge,Karmine Corp,45.0,45.0,0.0,1,7,1
+2026-02-14,20260214130121,fw25-le-tee-boxy-noir,FW25,Karmine Corp,29.99,29.99,0.0,1,7,3
+2026-02-15,20260215015703,manchettes-rouge-basket,Manchettes Rouge Basket,Karmine Corp,30.0,30.0,0.0,1,3,0
+2026-02-16,20260216035312,short-bleu-basket,Short de Basket Bleu,Karmine Corp,45.0,45.0,0.0,1,7,1
+2026-02-17,20260217142715,maillot-pro-2026-bleu,Maillot Pro 2026 Bleu [M],Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-02-17,20260217205807,maillot-bleu-basket,Maillot de Basket Bleu,Karmine Corp,65.0,65.0,0.0,1,7,0
+2026-02-21,20260221075748,fw25-le-jogging-noir,FW25,Karmine Corp,74.99,74.99,0.0,1,7,0
+2026-02-22,20260222155233,manchette-pro-kit-2025-navy,Manchette Pro Kit 2025 Navy,Karmine Corp,29.99,29.99,0.0,1,0,0
+2026-02-24,20260224065258,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,9.99,9.99,0.0,1,0,0
+2026-02-28,20260228032643,maillot-pro-2026-rouge-flocage-busio,PRÉCOMMANDE,Karmine Corp,95.0,95.0,0.0,1,7,0
+2026-02-28,20260228110315,maillot-pro-2026-rouge-flocage-kyeahoo,PRÉCOMMANDE,Karmine Corp,115.0,115.0,0.0,1,7,0
+2026-02-28,20260228150935,maillot-pro-2026-rouge-flocage-yike,PRÉCOMMANDE,Karmine Corp,95.0,95.0,0.0,1,7,0
+2026-02-28,20260228225507,maillot-pro-2026-rouge-1,PRÉCOMMANDE,Karmine Corp,85.0,85.0,0.0,1,7,0
+2026-03-03,20260303015632,maillot-pro-2026-bleu-s,Maillot Pro 2026 Bleu [S],Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-03-03,20260303022845,maillot-pro-2026-bleu-l,Maillot Pro 2026 Bleu [L],Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-03-04,20260304093719,maillot-pro-2026-rouge-flocage-kyeahoo,PRÉCOMMANDE,Karmine Corp,95.0,95.0,0.0,1,7,0
+2026-03-07,20260307194748,maillot-pro-2026-rouge,Maillot Pro 2026 Rouge [M],Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-03-10,20260310230112,veste-pro-kit-2026-bleu,Veste Pro Kit 2026 Bleu,Karmine Corp,90.0,90.0,0.0,1,7,0
+2026-03-11,20260311025232,pantalon-pro-kit-2026-rouge,Pantalon Pro Kit 2026 Rouge,Karmine Corp,72.0,72.0,0.0,1,7,0
+2026-03-24,20260324225242,veste-pro-kit-2026-rouge,Veste Pro Kit 2026 Rouge,Karmine Corp,90.0,90.0,0.0,0,1,1
+2026-03-25,20260325001121,casquette-campus-bleu,Casquette Campus Navy,Karmine Corp,17.99,29.99,0.4001,1,0,0
+2026-03-25,20260325011947,fw25-le-tee-boxy-noir,FW25,Karmine Corp,20.99,29.99,0.3001,0,1,1
+2026-03-25,20260325031815,fw25-le-tee-boxy-bordeaux,FW25,Karmine Corp,20.99,29.99,0.3001,0,1,1
+2026-03-25,20260325043105,casquette-campus-rouge,Casquette Campus Rouge,Karmine Corp,17.99,29.99,0.4001,1,0,0
+2026-03-27,20260327101712,cropped-t-shirt-monogram-beige,Cropped T-shirt Monogram Beige,Karmine Corp,565.0,1130.0,0.5,0,1,1
+2026-03-27,20260327105218,t-shirt-navy-campus,T-shirt Campus Navy,Karmine Corp,23.99,34.99,0.3144,0,1,1
+2026-03-27,20260327105551,t-shirt-monogram-beige,T-shirt Monogram Beige,Karmine Corp,22.0,42.0,0.4762,0,1,1
+2026-03-27,20260327111738,short-rouge-basket,Short de Basket Rouge,Karmine Corp,45.0,45.0,0.0,0,1,1
+2026-03-27,20260327111856,t-shirt-baseball-bleu,T-shirt baseball bleu,Karmine Corp,18.99,35.0,0.4574,0,1,1
+2026-03-27,20260327112809,short-bleu-basket,Short de Basket Bleu,Karmine Corp,45.0,45.0,0.0,0,1,1
+2026-03-27,20260327120506,t-shirt-campus-beige,T-shirt Campus Beige,Karmine Corp,23.99,34.99,0.3144,0,1,1
+2026-03-27,20260327123816,hoodie-ultra-noir,Hoodie Ultra Noir,Karmine Corp,34.99,50.0,0.3002,0,1,1
+2026-03-27,20260327124332,short-legende-du-club-cabochard,Short Légende Du Club Cabochard,Karmine Corp,27.99,40.0,0.3003,0,1,1
+2026-03-27,20260327141705,hoodie-classique-noir,Hoodie Classique Noir,Karmine Corp,35.99,60.0,0.4002,0,1,1
+2026-03-27,20260327141846,hoodie-speciale-arenes,Hoodie Finally Home,Karmine Corp,58.0,115.0,0.4957,0,1,1
+2026-03-27,20260327142711,crewneck-knit-noir,Crewneck Knit Noir,Karmine Corp,59.99,74.99,0.2,0,1,1
+2026-03-27,20260327142822,jogging-classique-noir,Jogging Classique Noir,Karmine Corp,34.99,50.0,0.3002,0,1,1
+2026-03-27,20260327145318,t-shirt-monogram-noir,T-shirt Monogram Noir,Karmine Corp,17.99,35.0,0.486,0,1,1
+2026-03-27,20260327153603,hoodie-ultra-gris,Hoodie Ultra Gris,Karmine Corp,34.99,50.0,0.3002,0,1,1
+2026-03-27,20260327155850,hoodie-monogram-beige,Hoodie Monogram Beige,Karmine Corp,37.99,75.0,0.4935,0,1,1
+2026-03-27,20260327160531,hoodie-classique-beige,Hoodie Classique Beige,Karmine Corp,35.99,60.0,0.4002,0,1,1
+2026-03-27,20260327163109,jogging-pro-kit-2023,Jogging Pro Kit  2023,Karmine Corp,38.99,55.0,0.2911,0,1,1
+2026-03-27,20260327172016,jogging-kcx-4,Jogging KCX 4,Karmine Corp,45.99,64.99,0.2924,0,1,1
+2026-03-27,20260327172254,jogging-pro-kit-2024,Jogging Pro Kit  2024,Karmine Corp,38.99,55.0,0.2911,0,1,1
+2026-03-27,20260327173423,polo-karmine-noir,Polo Chroma Noir,Karmine Corp,41.99,70.0,0.4001,0,1,1
+2026-03-27,20260327181544,hoodie-university-noir,Hoodie University Noir,Karmine Corp,65.0,65.0,0.0,0,1,1
+2026-03-27,20260327185304,tee-legende-du-club-cabochard,T-shirt Légende Du Club Cabochard,Karmine Corp,17.0,33.0,0.4848,0,1,1
+2026-03-27,20260327202252,veste-pro-kit-2024,Veste Pro Kit 2024,Karmine Corp,55.99,80.0,0.3001,0,1,1
+2026-03-27,20260327202505,varsity-jacket-campus-navy,Varsity Jacket Campus Navy,Karmine Corp,3538.0,5081.0,0.3037,0,1,1
+2026-03-27,20260327203940,t-shirt-university-bleu,T-shirt University Bleu,Karmine Corp,17.99,35.0,0.486,0,1,1
+2026-03-27,20260327223726,veste-kcx-4,Veste KCX 4,Karmine Corp,45.99,76.99,0.4026,0,1,1
+2026-03-28,20260328013721,maillot-2025-ultra,Maillot Ultra 2025,Karmine Corp,64.99,64.99,0.0,0,1,1
+2026-03-28,20260328025751,maillot-kcx-3,Maillot KCX 3 KCORP VS THE WORLDS,Karmine Shop,34.99,70.0,0.5001,0,1,1
+2026-03-28,20260328030343,maillot-worlds-2024,Maillot Worlds 2024 Non Customisé,Karmine Corp,39.99,70.0,0.4287,0,1,1
+2026-03-28,20260328044131,maillot-pro-2023,Maillot Pro 2023,Karmine Corp,37.99,75.0,0.4935,0,1,1
+2026-03-28,20260328090339,t-shirt-baseball-blanc,T-shirt baseball blanc,Karmine Corp,17.99,35.0,0.486,0,1,1
+2026-03-28,20260328131448,maillot-pro-2026-bleu-customisable,Maillot Pro 2026 Bleu customisé,Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-03-29,20260329065816,varsity-jacket-campus-rouge,Varsity Jacket Campus Rouge,Karmine Corp,93.99,134.99,0.3037,0,1,1
+2026-04-03,20260403091028,pantalon-pro-kit-2026-bleu,Pantalon Pro Kit 2026 Bleu,Karmine Corp,60.0,60.0,0.0,0,1,1
+2026-04-05,20260405200057,fw25-le-tee-boxy-noir,FW25,Karmine Corp,22.0,36.0,0.3889,0,1,1
+2026-04-08,20260408110517,maillot-worlds-rouge-2025,Maillot Worlds Rouge 2025,Karmine Corp,79.99,79.99,0.0,0,1,1
+2026-04-08,20260408115454,maillot-worlds-bleu-2025,Maillot Worlds Bleu 2025,Karmine Corp,95.0,95.0,0.0,0,1,1
+2026-04-09,20260409152902,t-shirt-navy-campus,T-shirt Campus Navy,Karmine Corp,34.99,34.99,0.0,0,1,1
+2026-04-09,20260409161158,t-shirt-baseball-bleu,T-shirt baseball bleu,Karmine Corp,18.99,35.0,0.4574,0,1,1
+2026-04-09,20260409162008,polo-campus-bleu,Polo Campus Navy,Karmine Corp,69.99,69.99,0.0,0,1,1
+2026-04-09,20260409162453,tee-legende-du-club-cabochard,T-shirt Légende Du Club Cabochard,Karmine Corp,23.0,44.0,0.4773,0,1,1
+2026-04-09,20260409172815,hoodie-university-noir,Hoodie University Noir,Karmine Corp,65.0,65.0,0.0,0,1,1
+2026-04-09,20260409175310,hoodie-speciale-arenes,Hoodie Finally Home,Karmine Corp,42.0,84.0,0.5,0,1,1
+2026-04-09,20260409183209,hoodie-classique-marron,Hoodie Classique Marron,Karmine Corp,43.0,72.0,0.4028,0,1,1
+2026-04-09,20260409185530,jogging-classique-noir,Jogging Classique Noir,Karmine Corp,34.99,50.0,0.3002,0,1,1
+2026-04-09,20260409194224,short-legende-du-club-cabochard,Short Légende Du Club Cabochard,Karmine Corp,27.99,40.0,0.3003,0,1,1
+2026-04-09,20260409204640,t-shirt-baseball-blanc,T-shirt baseball blanc,Karmine Corp,17.99,35.0,0.486,0,1,1
+2026-04-09,20260409212521,jogging-pro-kit-2024,Jogging Pro Kit  2024,Karmine Corp,38.99,55.0,0.2911,0,1,1
+2026-04-09,20260409214155,t-shirt-monogram-noir,T-shirt Monogram Noir,Karmine Corp,17.99,35.0,0.486,0,1,1
+2026-04-09,20260409215015,hoodie-ultra-bleu,Hoodie Ultra Bleu,Karmine Corp,34.99,50.0,0.3002,0,1,1
+2026-04-09,20260409220035,hoodie-classique-beige,Hoodie Classique Beige,Karmine Corp,35.99,60.0,0.4002,0,1,1
+2026-04-09,20260409224307,jogging-pro-kit-2023,Jogging Pro Kit  2023,Karmine Corp,38.99,55.0,0.2911,0,1,1
+2026-04-09,20260409230257,hoodie-monogram-noir,Hoodie Monogram Noir,Karmine Corp,46.0,90.0,0.4889,0,1,1
+2026-04-09,20260409234116,maillot-pro-2026-bleu-customisable,Maillot Pro 2026 Bleu customisé,Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-04-10,20260410005708,hoodie-ultra-gris,Hoodie Ultra Gris,Karmine Corp,34.99,50.0,0.3002,0,1,1
+2026-04-10,20260410040829,jogging-kcx-4,Jogging KCX 4,Karmine Corp,45.99,64.99,0.2924,0,1,1
+2026-04-15,20260415032037,veste-pro-kit-2026-rouge,Veste Pro Kit 2026 Rouge,Karmine Corp,109.0,109.0,0.0,0,1,1
+2026-04-30,20260430143120,maillot-pro-2026-rouge,Maillot Pro 2026 Rouge,Karmine Corp,131.0,131.0,0.0,1,1,0
+2026-05-09,20260509094354,carte-collector-yike,Carte collector Yike,Karmine Corp,30.0,30.0,0.0,1,0,0
+2026-05-09,20260509110712,carte-collector-busio,Carte collector Busio,Karmine Corp,36.0,36.0,0.0,1,0,0
+2026-05-09,20260509125253,carte-collector-kyeahoo,Carte collector Kyeahoo,Karmine Corp,36.0,36.0,0.0,1,0,0
+2026-05-10,20260510192813,carte-collector-caliste,Carte collector Caliste,Karmine Corp,30.0,30.0,0.0,0,0,0
+2026-05-26,20260526162036,maillot-pro-eternal-2026,Maillot Pro Eternal 2026,,95.0,95.0,0.0,1,1,0
+2026-05-26,20260526162048,ballon-de-football-americain-campus,Ballon de Football Américain Campus,Karmine Corp,34.99,34.99,0.0,1,0,0
+2026-07-17,20260717020959,etiquette-de-valise-karmine-noir,Étiquette de valise Karmine Noir,Karmine Corp,6.0,12.0,0.5,1,0,0
+2026-09-05,20260905172830,maillot-pro-2026-rouge,Maillot Pro 2026 Rouge,Karmine Corp,80.0,80.0,0.0,1,1,0
+2026-09-05,20260905172830,pantalon-pro-kit-2026-rouge,Pantalon Pro Kit 2026 Rouge,Karmine Corp,60.0,60.0,0.0,1,1,0
+2026-09-05,20260905172830,veste-pro-kit-2026-bleu,Veste Pro Kit 2026 Bleu,Karmine Corp,90.0,90.0,0.0,1,1,0
+2026-09-05,20260905172911,veste-pro-kit-2026-rouge,Veste Pro Kit 2026 Rouge,Karmine Corp,90.0,90.0,0.0,1,1,0
+2026-09-07,20260907093714,fw25-le-gilet-noir,FW25,Karmine Corp,84.99,84.99,0.0,1,1,0
+2026-09-07,20260907093715,maillot-ultra-eternal-2026,Maillot Ultra Eternal 2026,Karmine Corp,70.0,70.0,0.0,1,1,0
+2026-09-07,20260907093715,maillot-pro-eternal-2026,Maillot Pro Eternal 2026,Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-09-07,20260907093715,t-shirt-campus-beige,T-shirt Campus Beige,Karmine Corp,34.99,34.99,0.0,0,1,1
+2026-09-07,20260907093749,road-to-worlds-2026-piece-of-history,ROAD TO WORLDS 2026,,36.0,36.0,0.0,1,1,0
+2026-09-07,20260907093801,ballon-de-football-americain-campus,Ballon de Football Américain Campus,Karmine Corp,34.99,34.99,0.0,1,0,0
+2026-09-07,20260907093952,maillot-worlds-2026,Maillot Worlds 2026,,95.0,95.0,0.0,1,1,0
+2026-09-07,20260907094003,veste-pro-kit-worlds-2026,Veste Pro Kit Worlds 2026,Karmine Corp,89.99,89.99,0.0,1,1,0
+2026-10-15,20261015223113,t-shirt-metal,T-Shirt Metal,Karmine Corp,39.99,39.99,0.0,1,1,0
+2026-10-15,20261015230959,maillot-pro-eternal-2026,Maillot Pro Eternal 2026,Karmine Corp,80.0,80.0,0.0,0,1,1
+2026-10-15,20261015231121,fw25-le-gilet-bordeaux,FW25,Karmine Corp,84.99,84.99,0.0,1,1,0
+2026-10-15,20261015231352,fw25-le-jogging-bordeaux,FW25,Karmine Corp,74.99,74.99,0.0,1,1,0
+2026-10-15,20261015233000,brassiere-monogram-noir,Brassière Monogram Noir,Karmine Corp,29.99,29.99,0.0,1,1,0
+2026-10-15,20261015233245,maillot-ultra-eternal-2026,Maillot Ultra Eternal 2026,Karmine Corp,60.0,60.0,0.0,1,1,0
+2026-10-16,20261016000155,maillot-worlds-2026,Maillot Worlds 2026,Karmine Corp,79.99,79.99,0.0,1,1,0
+2026-10-16,20261016000957,maillot-worlds-rouge-2025,Maillot Worlds Rouge 2025,Karmine Corp,79.99,79.99,0.0,0,1,1
+2026-10-16,20261016004955,casquette-denim,Casquette Denim,Karmine Corp,29.99,29.99,0.0,0,0,0
+2026-10-16,20261016010114,chemise-light-blue,Chemise light blue,Karmine Corp,54.99,69.99,0.2143,1,1,0
+2026-10-16,20261016010625,short-rouge-basket,Short de Basket Rouge,Karmine Corp,44.99,44.99,0.0,0,1,1
+2026-10-16,20261016012522,t-shirt-butterfly,T-Shirt Butterfly,Karmine Corp,34.99,34.99,0.0,1,1,0
+2026-10-16,20261016015335,pantalon-pro-kit-worlds-2025,Pantalon Pro Kit Worlds 2025,Karmine Corp,41.99,59.99,0.3001,1,1,0
+2026-10-16,20261016020139,polo-knit-signature,Polo Knit Signature,Karmine Corp,79.99,79.99,0.0,1,1,0
+2026-10-16,20261016021305,maillot-bleu-karmine-bluelock,Maillot Bleu Karmine | Blue Lock,Karmine Corp,39.99,39.99,0.0,1,1,0
+2026-10-16,20261016022326,veste-pro-kit-worlds-2026,Veste Pro Kit Worlds 2026,Karmine Corp,89.99,89.99,0.0,1,1,0
+2026-10-16,20261016022728,maillot-worlds-bleu-2025,Maillot Worlds Bleu 2025,Karmine Corp,79.99,79.99,0.0,0,1,1
+2026-10-25,20261025203843,ballon-de-football-americain-campus,Ballon de Football Américain Campus,Karmine Corp,34.99,34.99,0.0,1,0,0
+2026-10-25,20261025203843,fw25-le-gilet-noir,FW25,Karmine Corp,84.99,84.99,0.0,1,1,0
+2026-10-25,20261025203843,veste-pro-kit-2026-rouge,Veste Pro Kit 2026 Rouge,Karmine Corp,90.0,90.0,0.0,1,1,0
+2026-10-25,20261025203920,pantalon-pro-kit-worlds-2026,Pantalon Pro Kit Worlds 2026,Karmine Corp,59.99,59.99,0.0,1,1,0
+2026-10-25,20261025203920,t-shirt-campus-beige,T-shirt Campus Beige,Karmine Corp,34.99,34.99,0.0,0,1,1
+2026-10-25,20261025203922,fw25-le-jogging-noir,FW25,Karmine Corp,74.99,74.99,0.0,1,1,0

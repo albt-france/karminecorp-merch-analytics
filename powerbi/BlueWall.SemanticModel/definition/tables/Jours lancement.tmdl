@@ -1,0 +1,19 @@
+table 'Jours lancement'
+	lineageTag: fd780e91-7f07-4dce-b63f-e74027fe821c
+
+	column jour
+		dataType: int64
+		lineageTag: 619d1279-14d0-4a80-8943-9b0ae6122259
+		summarizeBy: none
+		sourceColumn: jour
+
+	partition 'Jours lancement' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "jours_lancement.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"jour", Int64.Type}}, "en-US")
+				in
+					Typed
+

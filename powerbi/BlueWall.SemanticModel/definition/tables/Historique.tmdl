@@ -1,0 +1,116 @@
+table Historique
+	lineageTag: f57800d2-26ec-425c-a26c-736a99330007
+
+	column date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: f7b77fed-fc89-4437-bb25-7a26e9ca85b8
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column timestamp
+		dataType: int64
+		lineageTag: b280b098-4b55-4831-bbe3-f20fdb475743
+		summarizeBy: none
+		sourceColumn: timestamp
+
+	column handle
+		dataType: string
+		lineageTag: f270e468-4460-4cc9-9ac1-d98de8e83d34
+		summarizeBy: none
+		sourceColumn: handle
+
+	column titre
+		dataType: string
+		lineageTag: 0f57186c-818e-40bf-aa53-b86ede075f13
+		summarizeBy: none
+		sourceColumn: titre
+
+	column marque
+		dataType: string
+		lineageTag: cf9071a7-60ff-4555-8280-e03aca8de68f
+		summarizeBy: none
+		sourceColumn: marque
+
+	column prix_ttc
+		dataType: double
+		lineageTag: a82bbceb-7a1e-4f27-9d89-9715e11b0431
+		summarizeBy: none
+		sourceColumn: prix_ttc
+
+	column prix_plein_ttc
+		dataType: double
+		lineageTag: 74618694-a003-41dc-8f8b-02c4f37f8e02
+		summarizeBy: none
+		sourceColumn: prix_plein_ttc
+
+	column remise
+		dataType: double
+		formatString: 0 %
+		lineageTag: 11b163e1-a75a-4dfb-9d9c-c97f4293abfc
+		summarizeBy: none
+		sourceColumn: remise
+
+	column disponible
+		dataType: int64
+		lineageTag: b3c6285f-bf06-458d-8952-b999ea68aad1
+		summarizeBy: none
+		sourceColumn: disponible
+
+	column nb_tailles
+		dataType: int64
+		lineageTag: 81b81e81-1fce-4148-8dff-91706687366e
+		summarizeBy: none
+		sourceColumn: nb_tailles
+
+	column nb_tailles_indisponibles
+		dataType: int64
+		lineageTag: 5fa819b4-d919-4505-8fbb-67f6cd33d26a
+		summarizeBy: none
+		sourceColumn: nb_tailles_indisponibles
+
+	column type
+		dataType: string
+		lineageTag: 26364d28-560c-455c-a657-63c4987bdec6
+		summarizeBy: none
+		sourceColumn: type
+
+	column collection
+		dataType: string
+		lineageTag: b534801c-6cba-47b9-9775-c6ac5c4ea5a4
+		summarizeBy: none
+		sourceColumn: collection
+
+	column mois_debut
+		dataType: dateTime
+		formatString: mmm yy
+		lineageTag: 05361d7c-e259-4354-808d-515d49e89772
+		summarizeBy: none
+		sourceColumn: mois_debut
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column solde
+		dataType: int64
+		lineageTag: ed681e15-d034-443f-885c-0a402387abe9
+		summarizeBy: none
+		sourceColumn: solde
+
+	column tranche_remise
+		dataType: string
+		lineageTag: 74d5d3bd-3b14-409a-9932-d3f29b029a7b
+		summarizeBy: none
+		sourceColumn: tranche_remise
+
+	partition Historique = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "historique.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"date", type date}, {"timestamp", Int64.Type}, {"handle", type text}, {"titre", type text}, {"marque", type text}, {"prix_ttc", type number}, {"prix_plein_ttc", type number}, {"remise", type number}, {"disponible", Int64.Type}, {"nb_tailles", Int64.Type}, {"nb_tailles_indisponibles", Int64.Type}, {"type", type text}, {"collection", type text}, {"mois_debut", type date}, {"solde", Int64.Type}, {"tranche_remise", type text}}, "en-US")
+				in
+					Typed
+

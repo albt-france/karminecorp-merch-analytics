@@ -1,0 +1,204 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1312.9376000166169,
+            "y": 498.23949608141811
+          },
+          "nodeIndex": "_Mesures",
+          "nodeLineageTag": "d91794f7-3426-4a13-8fd4-d7d75327244e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": -24.347255421783984
+          },
+          "nodeIndex": "Calendrier",
+          "nodeLineageTag": "6fa03a57-8ddf-486e-b722-00a18e80fcf5",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1596.9376000166169,
+            "y": 536.23949608141811
+          },
+          "nodeIndex": "Effet moments",
+          "nodeLineageTag": "77717de4-8ff5-4bfd-87e4-43a92b2097de",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1880.9376000166169,
+            "y": 498.23949608141811
+          },
+          "nodeIndex": "Historique",
+          "nodeLineageTag": "f57800d2-26ec-425c-a26c-736a99330007",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1078.9376000166171,
+            "y": 618.81632720313792
+          },
+          "nodeIndex": "Historique tailles",
+          "nodeLineageTag": "33e7f128-905f-4d1c-b07f-be93802ae41c",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2164.9376000166167,
+            "y": 596.23949608141811
+          },
+          "nodeIndex": "Jours lancement",
+          "nodeLineageTag": "fd780e91-7f07-4dce-b63f-e74027fe821c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2448.9376000166167,
+            "y": 596.23949608141811
+          },
+          "nodeIndex": "Param recuperation",
+          "nodeLineageTag": "4560deba-0b7f-4569-b3e7-9faaa94747af",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2732.9376000166167,
+            "y": 596.23949608141811
+          },
+          "nodeIndex": "Param surplus",
+          "nodeLineageTag": "9f85f64b-26d0-4652-935d-2cd769702a6e",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 574.84063006985491,
+            "y": -50
+          },
+          "nodeIndex": "Produits",
+          "nodeLineageTag": "118dec49-bd43-4c64-833c-08c1081d62c0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 688.94980601852194,
+            "y": 946.47899216283633
+          },
+          "nodeIndex": "Releves",
+          "nodeLineageTag": "4815699f-3c96-45a7-827e-5ead05f2dd0b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 860.74579371729487,
+            "y": 264.00433452957782
+          },
+          "nodeIndex": "Stock",
+          "nodeLineageTag": "a8dc0dff-8c31-4939-8dac-6538c3adc263",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 978.53649954337232,
+            "y": 969.09558916181663
+          },
+          "nodeIndex": "Tailles",
+          "nodeLineageTag": "f573029b-c695-4a45-b516-692624ff55f6",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 645.60976792883253,
+            "y": 764.937283490009
+          },
+          "nodeIndex": "Tranches",
+          "nodeLineageTag": "061cf859-fde6-4b7e-8eb7-b8ada9dfb572",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 321.73290506558021,
+            "y": 306.44534616364626
+          },
+          "nodeIndex": "Ventes",
+          "nodeLineageTag": "bc5a8f34-528b-474d-a905-a45e9b1056f5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

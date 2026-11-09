@@ -1,0 +1,329 @@
+table _Mesures
+	lineageTag: d91794f7-3426-4a13-8fd4-d7d75327244e
+
+	measure 'CA HT' = SUM ( Ventes[montant_ht] )
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: 7763f459-cef9-4139-a59f-56d25a9cfbe8
+
+	measure 'Marge HT' = SUM ( Ventes[marge_ht] )
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: fad7c0c4-4301-4207-b7e0-a40203ccc195
+
+	measure 'Taux de marge' = DIVIDE ( [Marge HT], [CA HT] )
+		formatString: 0 %
+		displayFolder: 1 Ventes
+		lineageTag: c9df0cb1-f093-4a95-852d-b983805a75e4
+
+	measure Unités = SUM ( Ventes[quantite] )
+		formatString: #,0
+		displayFolder: 1 Ventes
+		lineageTag: 0dbf222a-39e5-4650-af0f-34f235047444
+
+	measure Commandes = DISTINCTCOUNT ( Ventes[order_id] )
+		formatString: #,0
+		displayFolder: 1 Ventes
+		lineageTag: 38e40e7a-0129-406a-ae21-279b327af696
+
+	measure 'Panier moyen HT' = DIVIDE ( [CA HT], [Commandes] )
+		formatString: #,0.00 €
+		displayFolder: 1 Ventes
+		lineageTag: b064a96f-92a9-4699-97f0-e33964680f1e
+
+	measure 'CA au prix plein HT' = SUM ( Ventes[ca_prix_plein_ht] )
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: 829a52f0-6f8e-48ed-9a36-bdc3f09f926b
+
+	measure 'Remises accordées' = [CA au prix plein HT] - [CA HT]
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: 09345af4-9029-4006-a1e3-f7bf311ba2db
+
+	measure 'Remise moyenne' = DIVIDE ( [Remises accordées], [CA au prix plein HT] )
+		formatString: 0 %
+		displayFolder: 1 Ventes
+		lineageTag: 8291df17-67b8-4567-9435-b73f2841ac15
+
+	measure 'Part du CA au prix plein' = DIVIDE ( CALCULATE ( [CA HT], Ventes[remise_pct] = 0 ), [CA HT] )
+		formatString: 0 %
+		displayFolder: 1 Ventes
+		lineageTag: 2c198fa5-5354-4185-9633-664ba9c4cdeb
+
+	measure 'Part des unités au prix plein' = DIVIDE ( CALCULATE ( [Unités], Ventes[remise_pct] = 0 ), [Unités] )
+		formatString: 0 %
+		displayFolder: 1 Ventes
+		lineageTag: 73b08f06-8544-43b0-b510-bebe34cf1550
+
+	measure 'Pièces vendues sous le coût' = CALCULATE ( [Unités], Ventes[vendu_sous_cout] = 1 )
+		formatString: #,0
+		displayFolder: 1 Ventes
+		lineageTag: 1a808f27-d4a3-47f8-a101-12a0793cc1cb
+
+	measure 'Marge perdue sous le coût' = - CALCULATE ( [Marge HT], Ventes[vendu_sous_cout] = 1 )
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: 37c881ec-a57a-453f-9bc8-2644dd5b5b75
+
+	measure 'CA merch 2025' = CALCULATE ( [CA HT], Calendrier[annee] = 2025 )
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: 9d150f46-5917-4b98-87f8-3572e0ac2eca
+
+	measure 'Remises accordées par an' = CALCULATE ( [Remises accordées], REMOVEFILTERS ( Calendrier ) ) * 12 / 22.25
+		formatString: #,0 €
+		displayFolder: 1 Ventes
+		lineageTag: ced08a83-75b1-43da-9991-254603f5a600
+
+	measure 'Unités J0-J3' = CALCULATE ( [Unités], Ventes[jour_depuis_lancement] >= 0, Ventes[jour_depuis_lancement] <= 3 )
+		formatString: #,0
+		displayFolder: 2 Drops
+		lineageTag: 87caec69-a22c-4367-b25b-a942687340e7
+
+	measure 'Unités J0-J55' = CALCULATE ( [Unités], Ventes[jour_depuis_lancement] >= 0, Ventes[jour_depuis_lancement] <= 55 )
+		formatString: #,0
+		displayFolder: 2 Drops
+		lineageTag: 37c71f05-37cc-45ed-86cc-8cef6605e3cb
+
+	measure 'Part des ventes J0-J3' = CALCULATE ( DIVIDE ( [Unités J0-J3], [Unités J0-J55] ), KEEPFILTERS ( Produits[date_lancement] >= DATE ( 2025, 1, 1 ) && Produits[date_lancement] <= DATE ( 2026, 9, 14 ) ), KEEPFILTERS ( Produits[famille] <> "Flocage" ) )
+		formatString: 0 %
+		displayFolder: 2 Drops
+		lineageTag: a171e4fb-ca14-476f-93d8-1a239cd546cc
+
+	measure 'Part cumulée des ventes' = VAR j = MAX ( 'Jours lancement'[jour] ) RETURN CALCULATE ( DIVIDE ( CALCULATE ( [Unités], Ventes[jour_depuis_lancement] >= 0, Ventes[jour_depuis_lancement] <= j ), [Unités J0-J55] ), KEEPFILTERS ( Produits[date_lancement] >= DATE ( 2025, 1, 1 ) && Produits[date_lancement] <= DATE ( 2026, 9, 14 ) ), KEEPFILTERS ( Produits[famille] <> "Flocage" ) )
+		formatString: 0 %
+		displayFolder: 2 Drops
+		lineageTag: 20f7078e-ef58-4965-b35d-35088a781ad1
+
+	measure 'Part cumulée (toutes collections)' = CALCULATE ( [Part cumulée des ventes], REMOVEFILTERS ( Produits[collection] ), REMOVEFILTERS ( Produits[famille] ) )
+		formatString: 0 %
+		displayFolder: 2 Drops
+		lineageTag: 6a7b17e2-d659-4612-97a4-0e9c7bd91764
+
+	measure 'Ratio 8 semaines / J0-J3' = CALCULATE ( MEDIANX ( FILTER ( ALL ( Produits[product_id], Produits[jeu_prevision] ), Produits[jeu_prevision] = "Entraînement 2025" ), DIVIDE ( [Unités J0-J55], [Unités J0-J3] ) ), REMOVEFILTERS ( Produits ) )
+		formatString: 0.0
+		displayFolder: 2 Drops
+		lineageTag: e70a2803-b38c-4695-a935-582bed9bbe70
+
+	measure 'Prévision à 8 semaines' = [Unités J0-J3] * [Ratio 8 semaines / J0-J3]
+		formatString: #,0
+		displayFolder: 2 Drops
+		lineageTag: 1fc8cb5d-37f6-41ec-8642-4bec398049cd
+
+	measure 'Écart de prévision' = DIVIDE ( [Prévision à 8 semaines] - [Unités J0-J55], [Unités J0-J55] )
+		formatString: +0 %;-0 %;0 %
+		displayFolder: 2 Drops
+		lineageTag: 834f6f65-9920-4611-9b3b-43874745e87a
+
+	measure 'Erreur sur les drops 2026' = VAR k = [Ratio 8 semaines / J0-J3] VAR t = CALCULATETABLE ( VALUES ( Produits[product_id] ), Produits[jeu_prevision] = "Test 2026" ) RETURN DIVIDE ( SUMX ( t, ABS ( [Unités J0-J3] * k - [Unités J0-J55] ) ), SUMX ( t, [Unités J0-J55] ) )
+		formatString: 0 %
+		displayFolder: 2 Drops
+		lineageTag: cc8f21b8-7b6c-40a4-b4cc-c6720a0266a8
+
+	measure 'Produits mis de côté' = CALCULATE ( DISTINCTCOUNT ( Produits[product_id] ), Produits[jeu_prevision] = "Test 2026" )
+		formatString: #,0
+		displayFolder: 2 Drops
+		lineageTag: 1f383e23-dd22-412f-9689-ecbfe840187b
+
+	measure 'Hausse du CA J0-J3' = SUM ( 'Effet moments'[hausse_ca_j0_j3] )
+		formatString: +0 %;-0 %;0 %
+		displayFolder: 2 Drops
+		lineageTag: 74e20c50-2054-4f46-b3f0-a3c8335057c7
+
+	measure 'Stock initial' = SUM ( Stock[stock_initial] )
+		formatString: #,0
+		displayFolder: 3 Stock
+		lineageTag: fab62b55-4084-4357-acf8-b0b9da1793a0
+
+	measure 'Pièces vendues sur stock' = CALCULATE ( SUM ( Stock[unites_vendues] ), Stock[fabrique_a_la_commande] = 0 )
+		formatString: #,0
+		displayFolder: 3 Stock
+		lineageTag: f90724a6-e01f-4f6d-9337-d8498d8a05de
+
+	measure 'Taux d''écoulement' = DIVIDE ( [Pièces vendues sur stock], [Stock initial] )
+		formatString: 0 %
+		displayFolder: 3 Stock
+		lineageTag: e2671e47-763c-48d7-baa1-20796d872762
+
+	measure 'Écoulement XS' = CALCULATE ( [Taux d'écoulement], Tailles[taille] = "XS", KEEPFILTERS ( Produits[famille] IN { "Maillots", "Textile" } ) )
+		formatString: 0 %
+		displayFolder: 3 Stock
+		lineageTag: 8c419bf0-1b27-48fa-90b5-01d0efe64269
+
+	measure 'Écoulement 3XL' = CALCULATE ( [Taux d'écoulement], Tailles[taille] = "3XL", KEEPFILTERS ( Produits[famille] IN { "Maillots", "Textile" } ) )
+		formatString: 0 %
+		displayFolder: 3 Stock
+		lineageTag: 1b388337-9f7b-48a3-af40-1269e9fdbc3a
+
+	measure 'Stock restant' = CALCULATE ( SUM ( Stock[stock_final] ), Stock[fabrique_a_la_commande] = 0 )
+		formatString: #,0
+		displayFolder: 3 Stock
+		lineageTag: 39f53f14-10b6-4be1-92bc-38948d88064d
+
+	measure 'Stock restant au coût' = SUMX ( FILTER ( Stock, Stock[fabrique_a_la_commande] = 0 ), Stock[stock_final] * RELATED ( Produits[cout_unitaire_ht] ) )
+		formatString: #,0 €
+		displayFolder: 3 Stock
+		lineageTag: aecb6977-623b-4a66-9ac9-84cdaba8e788
+
+	measure 'Ventes perdues' = CALCULATE ( SUM ( Stock[ventes_perdues] ), Stock[fabrique_a_la_commande] = 0 )
+		formatString: #,0
+		displayFolder: 3 Stock
+		lineageTag: 57a88a6d-c7dc-4e29-8707-2ae56f1b9c8a
+
+	measure 'Ventes perdues textile' = CALCULATE ( [Ventes perdues], KEEPFILTERS ( Produits[famille] IN { "Maillots", "Textile" } ), KEEPFILTERS ( NOT Tailles[taille] IN { "TU", "4XL" } ) )
+		formatString: #,0
+		displayFolder: 3 Stock
+		lineageTag: 1feeac8d-3855-48f4-a2c9-07327a6dc24a
+
+	measure 'CA perdu par les ruptures' = SUMX ( FILTER ( Stock, Stock[fabrique_a_la_commande] = 0 ), Stock[ventes_perdues] * RELATED ( Produits[prix_plein_ttc] ) / 1.2 )
+		formatString: #,0 €
+		displayFolder: 3 Stock
+		lineageTag: 53804a2f-6964-4168-88ba-5babd82ec5a4
+
+	measure 'CA perdu textile' = CALCULATE ( [CA perdu par les ruptures], KEEPFILTERS ( Produits[famille] IN { "Maillots", "Textile" } ), KEEPFILTERS ( NOT Tailles[taille] IN { "TU", "4XL" } ) )
+		formatString: #,0 €
+		displayFolder: 3 Stock
+		lineageTag: b13cd55f-566f-4ae3-9b0d-985d83be4ccb
+
+	measure 'Alertes retour en stock' = SUM ( Stock[alertes_retour_stock] )
+		formatString: #,0
+		displayFolder: 3 Stock
+		lineageTag: 2db176c9-8d9d-459a-b646-0a6c205e744a
+
+	measure 'Part de la production' = DIVIDE ( [Stock initial], CALCULATE ( [Stock initial], ALLSELECTED ( Tailles ) ) )
+		formatString: 0 %
+		displayFolder: 3 Stock
+		lineageTag: e88c8db8-c77e-4d0e-92e2-fe01cbb2bf94
+
+	measure 'Part de la demande' = DIVIDE ( [Pièces vendues sur stock] + [Ventes perdues], CALCULATE ( [Pièces vendues sur stock] + [Ventes perdues], ALLSELECTED ( Tailles ) ) )
+		formatString: 0 %
+		displayFolder: 3 Stock
+		lineageTag: 5bbff078-e49f-42ea-90b3-4f98564e529a
+
+	measure 'Date retenue' = IF ( ISFILTERED ( Releves[snapshot_date] ), MAX ( Releves[snapshot_date] ), CALCULATE ( MAX ( Releves[snapshot_date] ), REMOVEFILTERS ( Releves ) ) )
+		formatString: dd/mm/yyyy
+		displayFolder: 4 Relevés
+		lineageTag: e8642d8d-5d1f-48e7-b19e-01edca261ce2
+
+	measure 'Produits en ligne' = VAR d = [Date retenue] RETURN CALCULATE ( DISTINCTCOUNT ( Releves[product_id] ), Releves[snapshot_date] = d )
+		formatString: #,0
+		displayFolder: 4 Relevés
+		lineageTag: 4eb37f87-e5a5-4bbc-920d-ff352a8621e4
+
+	measure 'Produits soldés' = VAR d = [Date retenue] RETURN CALCULATE ( DISTINCTCOUNT ( Releves[product_id] ), Releves[snapshot_date] = d, Releves[discount_pct] > 0 )
+		formatString: #,0
+		displayFolder: 4 Relevés
+		lineageTag: e3c7f6ca-fb6c-45eb-b4b6-be6fc7ef4639
+
+	measure 'Part des produits soldés' = DIVIDE ( [Produits soldés], [Produits en ligne] )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: 9e263714-a0d9-4e95-8011-de52ea37c503
+
+	measure 'Remise médiane' = VAR d = [Date retenue] RETURN CALCULATE ( MEDIAN ( Releves[discount_pct] ), Releves[snapshot_date] = d, Releves[discount_pct] > 0 )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: 378bfafd-3ef2-49ba-9164-1f16299ab168
+
+	measure Variantes = VAR d = [Date retenue] RETURN CALCULATE ( COUNTROWS ( Releves ), Releves[snapshot_date] = d )
+		formatString: #,0
+		displayFolder: 4 Relevés
+		lineageTag: 9c028e3c-5af1-46bc-b27f-66ece6c33f57
+
+	measure 'Variantes épuisées' = VAR d = [Date retenue] RETURN CALCULATE ( COUNTROWS ( Releves ), Releves[snapshot_date] = d, Releves[disponible] = 0 )
+		formatString: #,0
+		displayFolder: 4 Relevés
+		lineageTag: 6133449d-c8c8-40ff-aacf-fedb5cc231ed
+
+	measure 'Part des variantes épuisées' = DIVIDE ( [Variantes épuisées], [Variantes] )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: f024e20a-43f2-4d14-9f72-bf1014a8efea
+
+	measure 'Grandes tailles épuisées' = CALCULATE ( [Part des variantes épuisées], Tailles[taille] IN { "XXL", "3XL" } )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: 697bf1ff-0482-4f81-867d-a59f604578a2
+
+	measure 'Prix plein TTC (relevé)' = VAR d = [Date retenue] RETURN CALCULATE ( MAX ( Releves[prix_plein_ttc] ), Releves[snapshot_date] = d )
+		formatString: #,0.00 €
+		displayFolder: 4 Relevés
+		lineageTag: 24b6da19-270f-4e4e-88fe-1e78abd782c2
+
+	measure 'Prix TTC (relevé)' = VAR d = [Date retenue] RETURN CALCULATE ( MIN ( Releves[prix_ttc] ), Releves[snapshot_date] = d )
+		formatString: #,0.00 €
+		displayFolder: 4 Relevés
+		lineageTag: 5ef28853-5a38-41ff-aabf-ea8d57ba9019
+
+	measure 'Remise (relevé)' = VAR d = [Date retenue] RETURN CALCULATE ( MAX ( Releves[discount_pct] ), Releves[snapshot_date] = d )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: ed948526-4f33-4f90-ab48-892c1301d1ca
+
+	measure 'Pages archivées analysées' = COUNTROWS ( Historique )
+		formatString: #,0
+		displayFolder: 4 Relevés
+		lineageTag: 16407729-d71c-420b-8411-9de7155944a2
+
+	measure 'Part des pages soldées' = IF ( COUNTROWS ( Historique ) >= 10, AVERAGE ( Historique[solde] ) )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: 56a216a0-a176-483e-8110-a41f8c1b53d0
+
+	measure 'Remise médiane (historique)' = CALCULATE ( MEDIAN ( Historique[remise] ), Historique[remise] > 0 )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: 83cc1bae-c301-46fa-a13a-f0f818505b20
+
+	measure 'Tailles indisponibles (historique)' = AVERAGE ( 'Historique tailles'[indisponible] )
+		formatString: 0 %
+		displayFolder: 4 Relevés
+		lineageTag: e5321b88-2393-4f83-b9b4-aefe04cd22d7
+
+	measure 'Part des ventes perdues récupérée' = SELECTEDVALUE ( 'Param recuperation'[part_recuperee], 0.5 )
+		formatString: 0 %
+		displayFolder: 5 Gains
+		lineageTag: 52d43d4c-a5cb-4fae-b690-1e7b4b552392
+
+	measure 'Part du surplus évitée' = SELECTEDVALUE ( 'Param surplus'[part_evitee], 0.1 )
+		formatString: 0 %
+		displayFolder: 5 Gains
+		lineageTag: ad5727e1-08a3-4d2b-a98f-aadb02407289
+
+	measure 'Marge par pièce au prix plein' = CALCULATE ( DIVIDE ( [Marge HT], [Unités] ), Ventes[remise_pct] = 0, Produits[famille] IN { "Maillots", "Textile" } )
+		formatString: #,0.00 €
+		displayFolder: 5 Gains
+		lineageTag: 91ca5b09-620e-4d08-bf0e-e871b17065f6
+
+	measure 'Gain courbe de tailles' = CALCULATE ( [Ventes perdues], Produits[famille] IN { "Maillots", "Textile" }, NOT Tailles[taille] IN { "TU", "4XL" } ) * [Marge par pièce au prix plein] * [Part des ventes perdues récupérée] * 12 / 22.25
+		formatString: #,0 €
+		displayFolder: 5 Gains
+		lineageTag: 52954df8-1304-491c-bcef-312b739bb5f2
+
+	measure 'Gain production au plus juste' = VAR fam = TREATAS ( { "Maillots", "Textile" }, Produits[famille] ) VAR nliq = CALCULATE ( [Unités], Ventes[remise_pct] >= 0.5, fam ) VAR prixSolde = DIVIDE ( CALCULATE ( [CA HT], Ventes[remise_pct] >= 0.5, fam ), nliq ) VAR nstk = CALCULATE ( [Stock restant], fam ) VAR cout = DIVIDE ( CALCULATE ( SUMX ( FILTER ( Stock, Stock[fabrique_a_la_commande] = 0 ), Stock[stock_initial] * RELATED ( Produits[cout_unitaire_ht] ) ), fam ), CALCULATE ( [Stock initial], fam ) ) RETURN ( nliq * MAX ( cout - prixSolde, 0 ) + nstk * cout ) * [Part du surplus évitée] * 12 / 22.25
+		formatString: #,0 €
+		displayFolder: 5 Gains
+		lineageTag: c4d661ab-8133-4581-8478-200611ab091a
+
+	measure 'Gain total' = [Gain courbe de tailles] + [Gain production au plus juste]
+		formatString: #,0 €
+		displayFolder: 5 Gains
+		lineageTag: 712c98c9-d88a-49f5-a254-d4904f93ce51
+
+	measure 'Gain par rapport au coût' = DIVIDE ( [Gain total], 60000 )
+		formatString: 0.0"×"
+		displayFolder: 5 Gains
+		lineageTag: 29f6a8f4-31f0-455e-854f-e4c621f97358
+
+	column _
+		dataType: string
+		isHidden
+		lineageTag: 3f44cd1e-f52d-4afc-87e6-067862ac577a
+		summarizeBy: none
+		sourceColumn: _
+
+	partition _Mesures = m
+		mode: import
+		source = #table(type table [_ = text], {})
+

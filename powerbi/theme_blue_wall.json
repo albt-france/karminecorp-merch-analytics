@@ -1,0 +1,130 @@
+{
+  "name": "Blue Wall - étude indépendante",
+  "dataColors": [
+    "#2F6BD6",
+    "#8C8C92",
+    "#5A5A60",
+    "#FFFFFF",
+    "#3A3B41",
+    "#C8C8CC",
+    "#7AA2F0",
+    "#101E35"
+  ],
+  "background": "#000000",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#2F6BD6",
+  "good": "#2F6BD6",
+  "neutral": "#8C8C92",
+  "bad": "#8C8C92",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 26,
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#FFFFFF"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#AAAAAA"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": false,
+            "transparency": 100
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#AAAAAA"
+              }
+            },
+            "showAxisTitle": false,
+            "gridlineShow": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#AAAAAA"
+              }
+            },
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": "#2E2F35"
+              }
+            }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#AAAAAA"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

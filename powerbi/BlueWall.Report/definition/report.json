@@ -1,0 +1,105 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "Fluent2-CY26SU10",
+      "reportVersionAtImport": {
+        "visual": "2.14.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "BlueWall_Theme.json",
+      "reportVersionAtImport": {
+        "visual": "2.14.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "Fluent2-CY26SU10",
+          "path": "BaseThemes/Fluent2-CY26SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "BlueWall_Theme.json",
+          "path": "BlueWall_Theme.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "fond_page_00.png",
+          "path": "fond_page_00.png",
+          "type": "Image"
+        },
+        {
+          "name": "fond_page_01.png",
+          "path": "fond_page_01.png",
+          "type": "Image"
+        },
+        {
+          "name": "fond_page_02.png",
+          "path": "fond_page_02.png",
+          "type": "Image"
+        },
+        {
+          "name": "fond_page_03.png",
+          "path": "fond_page_03.png",
+          "type": "Image"
+        },
+        {
+          "name": "fond_page_04.png",
+          "path": "fond_page_04.png",
+          "type": "Image"
+        },
+        {
+          "name": "fond_page_05.png",
+          "path": "fond_page_05.png",
+          "type": "Image"
+        },
+        {
+          "name": "fond_page_06.png",
+          "path": "fond_page_06.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

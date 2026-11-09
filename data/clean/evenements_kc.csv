@@ -1,0 +1,13 @@
+date_debut,date_fin,evenement,lieu,capacite_ou_affluence,valeur,statut,note,source
+2021-07-26,2021-07-26,KCX 1,Palais des Congrès (Paris),affluence,3500,complet,Annoncé complet par la KC,kc_x_kcx1|presse_kcx_historique
+2022-01-01,2022-12-31,KCX 2,Accor Arena (Paris),affluence,12000,,Date exacte non relevée,presse_kcx_historique
+2023-01-01,2023-12-31,KCX 3,Paris La Défense Arena,affluence,29000,,Présenté comme un record européen pour un événement esport ; date exacte non relevée,presse_kcx_historique
+2024-09-20,2024-09-21,Inauguration des Arènes,Les Arènes (Évry-Courcouronnes),affluence,4500,,4 500 spectateurs sur deux jours,grandparissud_cp_2024
+2024-11-09,2024-11-09,KCX 4 - Forever Rivals,Paris La Défense Arena,affluence,28000,,Environ 28 000 selon defense-92 ; « près de 30 000 » selon une autre source,defense92_kcx4
+2024-01-01,2024-12-31,Journées LEC aux Arènes,Les Arènes (Évry-Courcouronnes),nombre de dates,2,complet,Objectif : 10 à 12 événements par an d'ici 2026-2027,esportsnet_arenes_2026
+2025-01-01,2025-12-31,Dates aux Arènes,Les Arènes (Évry-Courcouronnes),nombre de dates,5,complet,« Dès qu'on fait un événement c'est plein » (directeur des Arènes),esportsnet_arenes_2026
+2025-12-19,2025-12-20,KCX 5 (prévu),Adidas Arena (Paris),,,reporté,Report annoncé le 12/11/2025 ; billets remboursés,sheep_kcx5_report
+2026-04-24,2026-04-26,LEC Roadtrip Spring (Paris),Les Arènes (Évry-Courcouronnes),capacité,3000,,,wikipedia_lec_2026|esportsnet_arenes_2026
+2026-07-24,2026-07-26,LEC Roadtrip Summer (Paris),Adidas Arena (Paris),,,,Pass 3 jours vendus vite ; « un bon nombre de pass 1 jour » restants à la mi-mai,wikipedia_lec_2026|kc_x_roadtrip_summer
+2026-07-17,2026-07-19,EWC 2026 - phase finale LoL,Paris Expo Porte de Versailles,,,,Finale KC - Dplus KIA,ewc_communique_2026
+2026-09-18,2026-09-20,Finales LEC Summer,Palais Nikaïa (Nice),,,,Événement Riot et non KC ; la KC y joue la finale du tableau bas,wikipedia_lec_2026

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "BlueWall"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "dc674b93-f2b5-4f1a-8e35-9d9104904662"
+  }
+}

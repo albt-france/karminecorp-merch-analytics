@@ -1,0 +1,68 @@
+table Calendrier
+	lineageTag: 6fa03a57-8ddf-486e-b722-00a18e80fcf5
+
+	column date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: fd304694-c71d-4a63-b22c-7671a73affbb
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column annee
+		dataType: int64
+		formatString: 0
+		lineageTag: 88dc5b9a-d786-44c8-975f-7b0a274af11f
+		summarizeBy: none
+		sourceColumn: annee
+
+	column mois
+		dataType: int64
+		lineageTag: 6e64cfae-3cfa-4031-891a-e8c750a3b3fb
+		summarizeBy: none
+		sourceColumn: mois
+
+	column mois_debut
+		dataType: dateTime
+		formatString: mmm yy
+		lineageTag: d9be4fe1-e5d0-484d-a88c-d5df6a7e6583
+		summarizeBy: none
+		sourceColumn: mois_debut
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column periode_commerciale
+		dataType: string
+		lineageTag: 57ee80aa-8865-4d95-affa-e07989e9426e
+		summarizeBy: none
+		sourceColumn: periode_commerciale
+
+	column match_kc
+		dataType: string
+		lineageTag: cfb83ddf-dde6-4d8d-b044-b3c70ea67097
+		summarizeBy: none
+		sourceColumn: match_kc
+
+	column type_moment
+		dataType: string
+		lineageTag: 46398ffd-058c-4b33-a02e-14f374553329
+		summarizeBy: none
+		sourceColumn: type_moment
+
+	column jour_de_match_kc
+		dataType: int64
+		lineageTag: df625eef-0966-4d31-8012-7aeb3c32a7c4
+		summarizeBy: none
+		sourceColumn: jour_de_match_kc
+
+	partition Calendrier = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "calendrier.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"date", type date}, {"annee", Int64.Type}, {"mois", Int64.Type}, {"mois_debut", type date}, {"periode_commerciale", type text}, {"match_kc", type text}, {"type_moment", type text}, {"jour_de_match_kc", Int64.Type}}, "en-US")
+				in
+					Typed
+

@@ -1,0 +1,26 @@
+table Tranches
+	lineageTag: 061cf859-fde6-4b7e-8eb7-b8ada9dfb572
+
+	column tranche_remise
+		dataType: string
+		lineageTag: aa1d0d10-2e18-4d28-87cd-de99c0672c61
+		summarizeBy: none
+		sourceColumn: tranche_remise
+		sortByColumn: ordre
+
+	column ordre
+		dataType: int64
+		lineageTag: 3b640b68-9136-4c60-99b8-45a16a7510cd
+		summarizeBy: none
+		sourceColumn: ordre
+
+	partition Tranches = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "tranches.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"tranche_remise", type text}, {"ordre", Int64.Type}}, "en-US")
+				in
+					Typed
+

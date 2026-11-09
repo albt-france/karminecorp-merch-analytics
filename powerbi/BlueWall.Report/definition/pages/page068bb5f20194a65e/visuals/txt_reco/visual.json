@@ -1,0 +1,159 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "txt_reco",
+  "position": {
+    "x": 78,
+    "y": 746,
+    "z": 9000,
+    "height": 242,
+    "width": 860,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "1  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Prévoir chaque drop dès ses 4 premiers jours (ventes à 8 semaines ≈ 3,5 × J0-J3) et réassortir à J4, au lieu de tout produire avant le lancement.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "2  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Commander la courbe de tailles de la demande : plus de XXL et de 3XL, moins de XS, d'après les ventes et les alertes « retour en stock ».",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "3  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Éviter les remises profondes : passé -50 %, une pièce ne rapporte presque plus rien. Mieux vaut un stock initial plus petit.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "4  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Caler les lancements sur les moments sportifs : une qualification fait +47 % de CA sur 4 jours.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

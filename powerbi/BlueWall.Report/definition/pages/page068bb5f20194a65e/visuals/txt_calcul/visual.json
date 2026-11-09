@@ -1,0 +1,107 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "txt_calcul",
+  "position": {
+    "x": 982,
+    "y": 434,
+    "z": 8000,
+    "height": 242,
+    "width": 860,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Courbe de tailles · ventes perdues par rupture (12 689 pièces en 22 mois) × part récupérée × marge d'une pièce vendue au prix plein, ramené à 12 mois.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Production au plus juste · surplus (pièces soldées à -50 % ou plus, et stock restant) × part évitée grâce à la prévision J0-J3 × coût non engagé, net du prix de solde.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Hypothèse basse : 50 % des ventes perdues récupérées et 10 % du surplus évité. Hypothèse haute : 100 % et 25 %. Sans sélection, les montants affichés sont ceux de l'hypothèse basse.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

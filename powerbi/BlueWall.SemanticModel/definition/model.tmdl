@@ -1,0 +1,31 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Ventes", "Stock", "Releves", "Produits", "Tailles", "Tranches", "Calendrier", "Jours lancement", "Effet moments", "Historique", "Historique tailles", "Param recuperation", "Param surplus", "_Mesures", "DossierDonnees"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Ventes
+ref table Stock
+ref table Releves
+ref table Produits
+ref table Tailles
+ref table Tranches
+ref table Calendrier
+ref table 'Jours lancement'
+ref table 'Effet moments'
+ref table Historique
+ref table 'Historique tailles'
+ref table 'Param recuperation'
+ref table 'Param surplus'
+ref table _Mesures
+
+ref cultureInfo fr-FR
+

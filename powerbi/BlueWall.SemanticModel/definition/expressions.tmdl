@@ -1,0 +1,5 @@
+expression DossierDonnees = "C:\case-study-kcorp\data\powerbi\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: fd9afbc1-02f4-422b-8f82-367003a2e29c
+
+	annotation PBI_ResultType = Text
+

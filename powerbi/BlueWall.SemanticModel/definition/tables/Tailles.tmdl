@@ -1,0 +1,26 @@
+table Tailles
+	lineageTag: f573029b-c695-4a45-b516-692624ff55f6
+
+	column taille
+		dataType: string
+		lineageTag: 555a13c0-0940-4fb2-a9a0-781ad567b786
+		summarizeBy: none
+		sourceColumn: taille
+		sortByColumn: ordre
+
+	column ordre
+		dataType: int64
+		lineageTag: 482600ae-bc85-427d-a6cb-8225749ccee9
+		summarizeBy: none
+		sourceColumn: ordre
+
+	partition Tailles = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "tailles.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"taille", type text}, {"ordre", Int64.Type}}, "en-US")
+				in
+					Typed
+

@@ -1,0 +1,130 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "txt_methode",
+  "position": {
+    "x": 982,
+    "y": 707,
+    "z": 9000,
+    "height": 281,
+    "width": 860,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "RÉEL  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Catalogue de karminecorp.fr (prix, remises, disponibilité par taille) : pages archivées par archive.org de janvier 2025 à octobre 2026, et relevé du 9/11/2026 ; résultats sportifs 2025-2026.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "SIMULÉ  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Ventes, stocks et clients 2025-2026 (graine fixe), calés sur le catalogue réel et les ordres de grandeur publiés. Ce ne sont pas des données de la KC.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "MÉTHODE  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "SQL (DuckDB) ; Python (prévision validée sur les drops 2026 mis de côté, régression aux erreurs robustes) ; Power BI (modèle en étoile, mesures DAX, paramètres de simulation). Claude Code m'a assisté sur une partie des scripts, pour gagner en efficacité.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

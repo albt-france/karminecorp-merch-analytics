@@ -1,0 +1,218 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "txt_reponse",
+  "position": {
+    "x": 78,
+    "y": 707,
+    "z": 8000,
+    "height": 281,
+    "width": 860,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "01  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Le constat (réel) : 22 mois d'historique du catalogue (archive.org) et le relevé du jour.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "02  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Les ventes : les maillots de saison s'écoulent, les capsules restent en stock et finissent soldées.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "03  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Un drop : 33 % des 8 premières semaines se vendent en 4 jours, ce qui permet de prévoir la suite (22 % d'erreur sur les drops 2026).",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "04  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Les tailles : la courbe commandée est trop centrée, les XXL et 3XL manquent.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "05  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Les remises : passé -50 %, la marge s'effondre.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "06  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "La recommandation : produire au plus juste rapporterait 170 à 360 k€ par an.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

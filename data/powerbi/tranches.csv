@@ -1,0 +1,6 @@
+tranche_remise,ordre
+Prix plein,0
+Moins de 30 %,1
+30 à 49 %,2
+50 à 69 %,3
+70 % et plus,4

@@ -1,0 +1,22 @@
+date,evenement,mesure,valeur,unite,precision,source_primaire,relaye_par,niveau_verification,source
+2026-03-01,LEC Versus 2026,pic de spectateurs (finale G2 - KC),734933,spectateurs,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_spring_2026
+2026-03-10,LEC Versus 2026,audience moyenne Los Ratones,408000,spectateurs,arrondi (plus de),Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,audience moyenne G2 Esports,377000,spectateurs,arrondi (plus de),Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,audience moyenne Karmine Corp,373000,spectateurs,arrondi (près de),Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,audience moyenne Movistar KOI,339000,spectateurs,arrondi,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,audience moyenne SK Gaming,320000,spectateurs,arrondi (presque),Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,évolution des heures regardées vs Winter 2025,0.155,ratio,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,évolution de l'audience moyenne vs Winter 2025,-0.031,ratio,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-03-10,LEC Versus 2026,évolution du pic vs Winter 2025,-0.082,ratio,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_versus_equipes
+2026-06-07,LEC Spring 2026,pic de spectateurs (finale G2 - KC),562322,spectateurs,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_spring_2026
+2026-06-07,LEC Spring 2025,pic de spectateurs (finale MKOI - G2),509010,spectateurs,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_spring_2026
+2026-06-07,LEC Spring 2026,audience moyenne du split,196438,spectateurs,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_spring_2026
+2026-06-07,LEC Spring 2025,audience moyenne du split,228090,spectateurs,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_spring_2026
+2026-06-07,LEC Spring 2026,part de l'audience via les co-streams,0.70,ratio,arrondi (près de),Esports Charts,Sheep Esports,source_secondaire,sheep_lec_spring_2026
+2026-05-09,LEC Spring 2026,pic de spectateurs KC - MKOI (Roadtrip Madrid),384390,spectateurs,exact,Esports Charts,Sheep Esports (X),source_secondaire,sheep_x_spring_top_matchs
+2026-09-20,LEC Summer 2026,pic de spectateurs (finale G2 - MKOI),434973,spectateurs,exact,Esports Charts,Sheep Esports,source_secondaire,sheep_lec_summer_2026
+2026-09-22,LEC Summer 2026,évolution du pic vs Summer 2025,-0.0813,ratio,exact,Esports Charts,Esports Charts (extrait de recherche),a_verifier,escharts_summer_2026
+2026-09-22,LEC Summer 2026,évolution de l'audience moyenne vs Summer 2025,-0.179,ratio,exact,Esports Charts,Esports Charts (extrait de recherche),a_verifier,escharts_summer_2026
+2026-10-15,Worlds 2026,pic de spectateurs KC - Cloud9 (play-in),1020000,spectateurs,arrondi,Esports Charts,GuruGamer,a_verifier,gurugamer_worlds_playin
+2026-07-19,EWC 2026,pic de spectateurs (finale Dplus KIA - KC),1449163,spectateurs,exact,inconnue,résumé de recherche,a_verifier,recherche_ewc_finale
+2026-11-08,Toutes compétitions,record historique de pic de la KC en LoL (Worlds 2026),1562993,spectateurs,exact,Esports Charts,Esports Charts (extrait de recherche),a_verifier,escharts_equipe_kc

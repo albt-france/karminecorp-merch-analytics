@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "BlueWall"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ccea247b-a51b-49aa-85d8-5f22105f803b"
+  }
+}

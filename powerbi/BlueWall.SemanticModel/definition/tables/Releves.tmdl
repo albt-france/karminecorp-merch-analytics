@@ -1,0 +1,97 @@
+table Releves
+	lineageTag: 4815699f-3c96-45a7-827e-5ead05f2dd0b
+
+	column snapshot_date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 1505e076-fe0b-48e9-b211-dc6cf5f37bd1
+		summarizeBy: none
+		sourceColumn: snapshot_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column product_id
+		dataType: int64
+		lineageTag: 05630191-ba5e-4963-b457-81f1b327aa99
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column variant_id
+		dataType: int64
+		lineageTag: 0eea4e41-3bcf-41bc-9cc7-c292232675cf
+		summarizeBy: none
+		sourceColumn: variant_id
+
+	column nom
+		dataType: string
+		lineageTag: 838d74e4-33be-41c3-bf34-873ceaed80e0
+		summarizeBy: none
+		sourceColumn: nom
+
+	column type
+		dataType: string
+		lineageTag: 861cc07a-3283-42ab-8b86-54853a0b1691
+		summarizeBy: none
+		sourceColumn: type
+
+	column collection
+		dataType: string
+		lineageTag: 509071b6-2705-4c62-b34e-a5026e4fcd09
+		summarizeBy: none
+		sourceColumn: collection
+
+	column taille
+		dataType: string
+		lineageTag: 49f3a0c8-1b94-4a52-84e7-99a6c397e714
+		summarizeBy: none
+		sourceColumn: taille
+
+	column prix_plein_ttc
+		dataType: double
+		formatString: #,0.00 €
+		lineageTag: 8bd9faba-7341-45f9-bfbe-f540ca74ad7e
+		summarizeBy: none
+		sourceColumn: prix_plein_ttc
+
+	column prix_ttc
+		dataType: double
+		formatString: #,0.00 €
+		lineageTag: 9c03132e-2188-4173-a580-009db02adf05
+		summarizeBy: none
+		sourceColumn: prix_ttc
+
+	column discount_pct
+		dataType: double
+		formatString: 0 %
+		lineageTag: eefeaf84-88b8-4b41-885a-a6c86921cad0
+		summarizeBy: none
+		sourceColumn: discount_pct
+
+	column tranche_remise
+		dataType: string
+		lineageTag: 97372f76-4134-424b-bfee-1e6876b7ca24
+		summarizeBy: none
+		sourceColumn: tranche_remise
+
+	column disponible
+		dataType: int64
+		lineageTag: 55068cfb-8a27-4249-908b-02a2f53e9aee
+		summarizeBy: none
+		sourceColumn: disponible
+
+	column precommande
+		dataType: int64
+		lineageTag: ca18848a-feda-4f03-a593-bea51b4f917a
+		summarizeBy: none
+		sourceColumn: precommande
+
+	partition Releves = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "releves.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"snapshot_date", type date}, {"product_id", Int64.Type}, {"variant_id", Int64.Type}, {"nom", type text}, {"type", type text}, {"collection", type text}, {"taille", type text}, {"prix_plein_ttc", type number}, {"prix_ttc", type number}, {"discount_pct", type number}, {"tranche_remise", type text}, {"disponible", Int64.Type}, {"precommande", Int64.Type}}, "en-US")
+				in
+					Typed
+

@@ -1,0 +1,386 @@
+date_moment,competition,phase,resultat,adversaire,type_moment,retenu_etude,raison_exclusion,jour_relatif,ca_ht,ref_ca_ht,indice_ca,indice_ca_maillots
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,-3,6997.91,6789.69,1.031,1.026
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,-2,6467.22,6789.69,0.953,1.014
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,-1,10437.82,6789.69,1.537,1.662
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,0,19871.76,6789.69,2.927,3.329
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,1,12753.7,6789.69,1.878,2.102
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,2,8767.85,6789.69,1.291,1.314
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,3,9257.08,6789.69,1.363,1.451
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,4,8668.76,6789.69,1.277,1.314
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,5,6370.53,6789.69,0.938,1.027
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,6,8060.35,6789.69,1.187,1.152
+2025-03-02,LEC Winter,Finale,V,G2 Esports,Finale,1,,7,7828.04,6789.69,1.153,1.265
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,-3,6370.53,7081.22,0.9,0.989
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,-2,8060.35,7081.22,1.138,1.109
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,-1,7828.04,7081.22,1.105,1.218
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,0,7343.03,7081.22,1.037,1.133
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,1,7570.55,7081.22,1.069,1.133
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,2,7906.47,7081.22,1.117,1.349
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,3,8446.21,7081.22,1.193,1.24
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,4,7894.64,7081.22,1.115,1.181
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,5,13942.89,7081.22,1.969,2.278
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,6,14841.89,7081.22,2.096,2.384
+2025-03-10,First Stand,Phase de groupes,D,Team Liquid,Défaite,1,,7,9369.66,7081.22,1.323,1.507
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,-3,8060.35,7081.22,1.138,1.109
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,-2,7828.04,7081.22,1.105,1.218
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,-1,7343.03,7081.22,1.037,1.133
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,0,7570.55,7081.22,1.069,1.133
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,1,7906.47,7081.22,1.117,1.349
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,2,8446.21,7081.22,1.193,1.24
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,3,7894.64,7081.22,1.115,1.181
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,4,13942.89,7081.22,1.969,2.278
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,5,14841.89,7081.22,2.096,2.384
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,6,9369.66,7081.22,1.323,1.507
+2025-03-11,First Stand,Phase de groupes,D,CTBC Flying Oyster,Défaite,0,suit un autre moment de moins de 3 jours,7,7492.96,7081.22,1.058,1.109
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,-3,7828.04,7081.22,1.105,1.218
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,-2,7343.03,7081.22,1.037,1.133
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,-1,7570.55,7081.22,1.069,1.133
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,0,7906.47,7081.22,1.117,1.349
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,1,8446.21,7081.22,1.193,1.24
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,2,7894.64,7081.22,1.115,1.181
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,3,13942.89,7081.22,1.969,2.278
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,4,14841.89,7081.22,2.096,2.384
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,5,9369.66,7081.22,1.323,1.507
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,6,7492.96,7081.22,1.058,1.109
+2025-03-12,First Stand,Phase de groupes,V,Top Esports,Victoire,0,suit un autre moment de moins de 3 jours,7,8191.33,7081.22,1.157,1.254
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,-3,7343.03,7081.22,1.037,1.133
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,-2,7570.55,7081.22,1.069,1.133
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,-1,7906.47,7081.22,1.117,1.349
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,0,8446.21,7081.22,1.193,1.24
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,1,7894.64,7081.22,1.115,1.181
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,2,13942.89,7081.22,1.969,2.278
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,3,14841.89,7081.22,2.096,2.384
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,4,9369.66,7081.22,1.323,1.507
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,5,7492.96,7081.22,1.058,1.109
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,6,8191.33,7081.22,1.157,1.254
+2025-03-13,First Stand,Phase de groupes,D,Hanwha Life Esports,Défaite,0,suit un autre moment de moins de 3 jours,7,7469.62,7081.22,1.055,1.131
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,-3,7906.47,7343.03,1.077,1.231
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,-2,8446.21,7343.03,1.15,1.132
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,-1,7894.64,7343.03,1.075,1.078
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,0,13942.89,7343.03,1.899,2.079
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,1,14841.89,7343.03,2.021,2.176
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,2,9369.66,7343.03,1.276,1.376
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,3,7492.96,7343.03,1.02,1.012
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,4,8191.33,7343.03,1.116,1.145
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,5,7469.62,7343.03,1.017,1.032
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,6,7540.5,7343.03,1.027,1.034
+2025-03-15,First Stand,Demi-finale,V,CTBC Flying Oyster,Qualification,0,suit un autre moment de moins de 3 jours,7,8467.13,7343.03,1.153,1.145
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,-3,8446.21,7357.05,1.148,1.118
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,-2,7894.64,7357.05,1.073,1.064
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,-1,13942.89,7357.05,1.895,2.054
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,0,14841.89,7357.05,2.017,2.149
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,1,9369.66,7357.05,1.274,1.359
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,2,7492.96,7357.05,1.018,1.0
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,3,8191.33,7357.05,1.113,1.13
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,4,7469.62,7357.05,1.015,1.02
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,5,7540.5,7357.05,1.025,1.022
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,6,8467.13,7357.05,1.151,1.13
+2025-03-16,First Stand,Finale,D,Hanwha Life Esports,Finale,0,suit un autre moment de moins de 3 jours,7,7368.86,7357.05,1.002,1.043
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,-3,11167.45,12561.6,0.889,0.969
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,-2,9937.84,12561.6,0.791,0.632
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,-1,12987.28,12561.6,1.034,0.943
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,0,12503.18,12561.6,0.995,0.989
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,1,13041.41,12561.6,1.038,1.001
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,2,10271.77,12561.6,0.818,0.736
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,3,13749.83,12561.6,1.095,1.197
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,4,12827.84,12561.6,1.021,0.958
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,5,14972.82,12561.6,1.192,1.367
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,6,11526.26,12561.6,0.918,0.977
+2026-02-17,LEC Versus,Quart de finale (haut),V,GIANTX,Victoire,1,,7,10802.35,12561.6,0.86,0.809
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,-3,12503.18,12323.18,1.015,1.006
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,-2,13041.41,12323.18,1.058,1.018
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,-1,10271.77,12323.18,0.834,0.748
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,0,13749.83,12323.18,1.116,1.217
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,1,12827.84,12323.18,1.041,0.974
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,2,14972.82,12323.18,1.215,1.39
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,3,11526.26,12323.18,0.935,0.993
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,4,10802.35,12323.18,0.877,0.822
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,5,9634.44,12323.18,0.782,0.789
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,6,11680.13,12323.18,0.948,0.997
+2026-02-20,LEC Versus,Demi-finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,7,12657.74,12323.18,1.027,1.062
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,-3,10271.77,12323.18,0.834,0.744
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,-2,13749.83,12323.18,1.116,1.209
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,-1,12827.84,12323.18,1.041,0.968
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,0,14972.82,12323.18,1.215,1.382
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,1,11526.26,12323.18,0.935,0.987
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,2,10802.35,12323.18,0.877,0.817
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,3,9634.44,12323.18,0.782,0.785
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,4,11680.13,12323.18,0.948,0.991
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,5,12657.74,12323.18,1.027,1.055
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,6,20602.57,12323.18,1.672,1.961
+2026-02-22,LEC Versus,Quart de finale (bas),V,Team Vitality,Victoire,0,suit un autre moment de moins de 3 jours,7,23961.34,12323.18,1.944,2.156
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,-3,10802.35,12154.67,0.889,0.828
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,-2,9634.44,12154.67,0.793,0.795
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,-1,11680.13,12154.67,0.961,1.004
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,0,12657.74,12154.67,1.041,1.069
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,1,20602.57,12154.67,1.695,1.986
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,2,23961.34,12154.67,1.971,2.184
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,3,17093.54,12154.67,1.406,1.739
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,4,13467.56,12154.67,1.108,1.249
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,5,13757.94,12154.67,1.132,1.187
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,6,12965.26,12154.67,1.067,1.204
+2026-02-27,LEC Versus,Demi-finale (bas),V,GIANTX,Victoire,1,,7,11436.91,12154.67,0.941,0.995
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,-3,9634.44,12088.15,0.797,0.801
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,-2,11680.13,12088.15,0.966,1.012
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,-1,12657.74,12088.15,1.047,1.078
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,0,20602.57,12088.15,1.704,2.003
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,1,23961.34,12088.15,1.982,2.202
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,2,17093.54,12088.15,1.414,1.754
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,3,13467.56,12088.15,1.114,1.26
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,4,13757.94,12088.15,1.138,1.197
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,5,12965.26,12088.15,1.073,1.214
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,6,11436.91,12088.15,0.946,1.003
+2026-02-28,LEC Versus,Finale (bas),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,7,12630.56,12088.15,1.045,0.989
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,-3,11680.13,11526.26,1.013,1.024
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,-2,12657.74,11526.26,1.098,1.09
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,-1,20602.57,11526.26,1.787,2.026
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,0,23961.34,11526.26,2.079,2.228
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,1,17093.54,11526.26,1.483,1.774
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,2,13467.56,11526.26,1.168,1.274
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,3,13757.94,11526.26,1.194,1.211
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,4,12965.26,11526.26,1.125,1.228
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,5,11436.91,11526.26,0.992,1.015
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,6,12630.56,11526.26,1.096,1.0
+2026-03-01,LEC Versus,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,7,13015.4,11526.26,1.129,1.002
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,-3,15444.74,8729.44,1.769,2.796
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,-2,12983.58,8729.44,1.487,2.155
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,-1,11809.51,8729.44,1.353,2.065
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,0,13155.64,8729.44,1.507,2.087
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,1,12374.49,8729.44,1.418,2.108
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,2,10210.17,8729.44,1.17,1.745
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,3,9816.43,8729.44,1.125,1.708
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,4,9851.74,8729.44,1.129,1.676
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,5,10276.56,8729.44,1.177,1.741
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,6,7680.76,8729.44,0.88,1.231
+2026-05-23,LEC Spring,Demi-finale (haut),D,G2 Esports,Défaite,0,proche du lancement d'une collection,7,13034.8,8729.44,1.493,2.051
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,-3,9851.74,11446.01,0.861,0.981
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,-2,10276.56,11446.01,0.898,1.019
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,-1,7680.76,11446.01,0.671,0.721
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,0,13034.8,11446.01,1.139,1.201
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,1,12808.6,11446.01,1.119,1.18
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,2,10356.28,11446.01,0.905,0.909
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,3,9834.45,11446.01,0.859,0.817
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,4,8046.0,11446.01,0.703,0.738
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,5,9861.64,11446.01,0.862,0.984
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,6,7655.15,11446.01,0.669,0.669
+2026-05-30,LEC Spring,Quart de finale (bas),V,Natus Vincere,Victoire,1,,7,15327.65,11446.01,1.339,1.618
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,-3,7680.76,11446.01,0.671,0.707
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,-2,13034.8,11446.01,1.139,1.178
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,-1,12808.6,11446.01,1.119,1.157
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,0,10356.28,11446.01,0.905,0.892
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,1,9834.45,11446.01,0.859,0.801
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,2,8046.0,11446.01,0.703,0.724
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,3,9861.64,11446.01,0.862,0.965
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,4,7655.15,11446.01,0.669,0.656
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,5,15327.65,11446.01,1.339,1.588
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,6,17002.77,11446.01,1.485,1.597
+2026-06-01,LEC Spring,Demi-finale (bas),V,GIANTX,Victoire,0,suit un autre moment de moins de 3 jours,7,11587.58,11446.01,1.012,1.124
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,-3,8046.0,11809.51,0.681,0.626
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,-2,9861.64,11809.51,0.835,0.834
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,-1,7655.15,11809.51,0.648,0.567
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,0,15327.65,11809.51,1.298,1.372
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,1,17002.77,11809.51,1.44,1.38
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,2,11587.58,11809.51,0.981,0.971
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,3,11191.47,11809.51,0.948,0.916
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,4,9390.11,11809.51,0.795,0.744
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,5,9795.09,11809.51,0.829,0.804
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,6,8541.93,11809.51,0.723,0.711
+2026-06-06,LEC Spring,Finale (bas),V,Movistar KOI,Qualification,1,,7,8906.73,11809.51,0.754,0.698
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,-3,9861.64,11809.51,0.835,0.834
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,-2,7655.15,11809.51,0.648,0.567
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,-1,15327.65,11809.51,1.298,1.372
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,0,17002.77,11809.51,1.44,1.38
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,1,11587.58,11809.51,0.981,0.971
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,2,11191.47,11809.51,0.948,0.916
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,3,9390.11,11809.51,0.795,0.744
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,4,9795.09,11809.51,0.829,0.804
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,5,8541.93,11809.51,0.723,0.711
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,6,8906.73,11809.51,0.754,0.698
+2026-06-07,LEC Spring,Finale,D,G2 Esports,Finale,0,suit un autre moment de moins de 3 jours,7,9609.91,11809.51,0.814,0.74
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,-3,7723.9,8465.05,0.912,0.852
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,-2,7611.9,8465.05,0.899,0.878
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,-1,6641.88,8465.05,0.785,0.798
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,0,14137.62,8465.05,1.67,1.062
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,1,11583.83,8465.05,1.368,0.902
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,2,11760.33,8465.05,1.389,1.037
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,3,10970.03,8465.05,1.296,1.079
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,4,8524.39,8465.05,1.007,0.903
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,5,7926.96,8465.05,0.936,0.919
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,6,7135.53,8465.05,0.843,0.687
+2026-06-28,MSI,Play-in tour 1,V,Relove Deep Cross Gaming,Victoire,0,proche du lancement d'une collection,7,9100.3,8465.05,1.075,1.037
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,-3,7611.9,8220.7,0.926,0.887
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,-2,6641.88,8220.7,0.808,0.806
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,-1,14137.62,8220.7,1.72,1.073
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,0,11583.83,8220.7,1.409,0.912
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,1,11760.33,8220.7,1.431,1.047
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,2,10970.03,8220.7,1.334,1.09
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,3,8524.39,8220.7,1.037,0.912
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,4,7926.96,8220.7,0.964,0.929
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,5,7135.53,8220.7,0.868,0.694
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,6,9100.3,8220.7,1.107,1.047
+2026-06-29,MSI,Play-in tour 2,D,T1,Défaite,0,suit un autre moment de moins de 3 jours,7,6318.28,8220.7,0.769,0.757
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,-3,6641.88,8220.7,0.808,0.806
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,-2,14137.62,8220.7,1.72,1.073
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,-1,11583.83,8220.7,1.409,0.912
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,0,11760.33,8220.7,1.431,1.047
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,1,10970.03,8220.7,1.334,1.09
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,2,8524.39,8220.7,1.037,0.912
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,3,7926.96,8220.7,0.964,0.929
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,4,7135.53,8220.7,0.868,0.694
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,5,9100.3,8220.7,1.107,1.047
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,6,6318.28,8220.7,0.769,0.757
+2026-06-30,MSI,Play-in tableau bas,D,Team Liquid Alienware,Défaite,0,suit un autre moment de moins de 3 jours,7,7028.89,8220.7,0.855,0.727
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,-3,4957.78,7135.53,0.695,0.643
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,-2,5473.55,7135.53,0.767,0.746
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,-1,5250.16,7135.53,0.736,0.67
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,0,6227.76,7135.53,0.873,0.911
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,1,11637.97,7135.53,1.631,1.708
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,2,16648.67,7135.53,2.333,2.717
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,3,9987.33,7135.53,1.4,1.49
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,4,8105.7,7135.53,1.136,1.124
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,5,7710.85,7135.53,1.081,1.082
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,6,7255.86,7135.53,1.017,1.015
+2026-07-17,EWC,Quart de finale,V,Anyone's Legend,Victoire,1,,7,5968.71,7135.53,0.836,0.971
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,-3,5473.55,7110.7,0.77,0.755
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,-2,5250.16,7110.7,0.738,0.678
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,-1,6227.76,7110.7,0.876,0.921
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,0,11637.97,7110.7,1.637,1.728
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,1,16648.67,7110.7,2.341,2.749
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,2,9987.33,7110.7,1.405,1.507
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,3,8105.7,7110.7,1.14,1.137
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,4,7710.85,7110.7,1.084,1.094
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,5,7255.86,7110.7,1.02,1.027
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,6,5968.71,7110.7,0.839,0.983
+2026-07-18,EWC,Demi-finale,V,T1,Qualification,0,suit un autre moment de moins de 3 jours,7,7774.24,7110.7,1.093,1.009
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,-3,5250.16,7110.7,0.738,0.703
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,-2,6227.76,7110.7,0.876,0.956
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,-1,11637.97,7110.7,1.637,1.793
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,0,16648.67,7110.7,2.341,2.853
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,1,9987.33,7110.7,1.405,1.564
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,2,8105.7,7110.7,1.14,1.18
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,3,7710.85,7110.7,1.084,1.136
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,4,7255.86,7110.7,1.02,1.066
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,5,5968.71,7110.7,0.839,1.02
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,6,7774.24,7110.7,1.093,1.047
+2026-07-19,EWC,Finale,D,Dplus KIA,Finale,0,suit un autre moment de moins de 3 jours,7,6919.19,7110.7,0.973,0.978
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,-3,5747.67,4495.29,1.279,1.216
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,-2,6642.8,4495.29,1.478,1.185
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,-1,6065.08,4495.29,1.349,1.016
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,0,101140.0,4495.29,22.499,26.79
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,1,78068.78,4495.29,17.367,20.823
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,2,45712.56,4495.29,10.169,11.662
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,3,32098.86,4495.29,7.141,7.446
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,4,27940.01,4495.29,6.215,6.713
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,5,22779.3,4495.29,5.067,5.156
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,6,23058.98,4495.29,5.13,3.613
+2026-09-05,LEC Summer,Demi-finale (haut),V,GIANTX,Qualification,0,proche du lancement d'une collection,7,26618.16,4495.29,5.921,4.562
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,-3,6642.8,4495.29,1.478,1.185
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,-2,6065.08,4495.29,1.349,1.016
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,-1,101140.0,4495.29,22.499,26.79
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,0,78068.78,4495.29,17.367,20.823
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,1,45712.56,4495.29,10.169,11.662
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,2,32098.86,4495.29,7.141,7.446
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,3,27940.01,4495.29,6.215,6.713
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,4,22779.3,4495.29,5.067,5.156
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,5,23058.98,4495.29,5.13,3.613
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,6,26618.16,4495.29,5.921,4.562
+2026-09-06,LEC Summer,Finale (haut),D,G2 Esports,Défaite,0,suit un autre moment de moins de 3 jours,7,22457.63,4495.29,4.996,3.899
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,-3,13401.23,14419.22,0.929,0.96
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,-2,12946.61,14419.22,0.898,0.993
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,-1,11055.5,14419.22,0.767,0.821
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,0,14580.54,14419.22,1.011,1.333
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,1,14246.52,14419.22,0.988,1.324
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,2,12902.71,14419.22,0.895,1.255
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,3,10733.07,14419.22,0.744,0.791
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,4,9974.4,14419.22,0.692,0.946
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,5,10917.04,14419.22,0.757,0.963
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,6,10495.04,14419.22,0.728,0.842
+2026-09-19,LEC Summer,Finale (bas),D,Movistar KOI,Défaite,1,,7,12409.71,14419.22,0.861,1.14
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,-3,9331.84,10130.85,0.921,1.048
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,-2,8716.49,10130.85,0.86,0.833
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,-1,9641.93,10130.85,0.952,0.935
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,0,21174.04,10130.85,2.09,1.329
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,1,17092.99,10130.85,1.687,1.102
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,2,18012.14,10130.85,1.778,1.281
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,3,22818.19,10130.85,2.252,2.041
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,4,15001.21,10130.85,1.481,1.15
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,5,14692.97,10130.85,1.45,1.464
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,6,11927.1,10130.85,1.177,1.259
+2026-10-15,Worlds,Play-in,V,Cloud9 KIA,Victoire,1,,7,10206.5,10130.85,1.007,0.878
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,-3,8716.49,9980.16,0.873,0.833
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,-2,9641.93,9980.16,0.966,0.935
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,-1,21174.04,9980.16,2.122,1.329
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,0,17092.99,9980.16,1.713,1.102
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,1,18012.14,9980.16,1.805,1.281
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,2,22818.19,9980.16,2.286,2.041
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,3,15001.21,9980.16,1.503,1.15
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,4,14692.97,9980.16,1.472,1.464
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,5,11927.1,9980.16,1.195,1.259
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,6,10206.5,9980.16,1.023,0.878
+2026-10-16,Worlds,Play-in,V,MVK Esports,Victoire,0,suit un autre moment de moins de 3 jours,7,11748.5,9980.16,1.177,1.265
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,-3,21174.04,9971.05,2.124,1.341
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,-2,17092.99,9971.05,1.714,1.112
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,-1,18012.14,9971.05,1.806,1.293
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,0,22818.19,9971.05,2.288,2.06
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,1,15001.21,9971.05,1.504,1.16
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,2,14692.97,9971.05,1.474,1.477
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,3,11927.1,9971.05,1.196,1.27
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,4,10206.5,9971.05,1.024,0.886
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,5,11748.5,9971.05,1.178,1.276
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,6,14066.79,9971.05,1.411,1.301
+2026-10-18,Worlds,Play-in (qualification),V,MVK Esports,Qualification,0,suit un autre moment de moins de 3 jours,7,14293.11,9971.05,1.433,1.405
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,-3,14692.97,9971.05,1.474,1.431
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,-2,11927.1,9971.05,1.196,1.23
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,-1,10206.5,9971.05,1.024,0.858
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,0,11748.5,9971.05,1.178,1.236
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,1,14066.79,9971.05,1.411,1.26
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,2,14293.11,9971.05,1.433,1.361
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,3,11711.59,9971.05,1.175,1.082
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,4,9886.3,9971.05,0.992,0.933
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,5,9897.32,9971.05,0.993,0.925
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,6,9323.96,9971.05,0.935,0.971
+2026-10-23,Worlds,Phase suisse,V,Anyone's Legend,Victoire,1,,7,9796.5,9971.05,0.982,0.977
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,-3,11927.1,9971.05,1.196,1.201
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,-2,10206.5,9971.05,1.024,0.838
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,-1,11748.5,9971.05,1.178,1.207
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,0,14066.79,9971.05,1.411,1.23
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,1,14293.11,9971.05,1.433,1.329
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,2,11711.59,9971.05,1.175,1.057
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,3,9886.3,9971.05,0.992,0.912
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,4,9897.32,9971.05,0.993,0.903
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,5,9323.96,9971.05,0.935,0.949
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,6,9796.5,9971.05,0.982,0.955
+2026-10-24,Worlds,Phase suisse,D,LYON,Défaite,0,suit un autre moment de moins de 3 jours,7,16815.84,9971.05,1.686,1.835
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,-3,11748.5,10206.5,1.151,1.196
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,-2,14066.79,10206.5,1.378,1.219
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,-1,14293.11,10206.5,1.4,1.317
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,0,11711.59,10206.5,1.147,1.047
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,1,9886.3,10206.5,0.969,0.903
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,2,9897.32,10206.5,0.97,0.895
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,3,9323.96,10206.5,0.914,0.94
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,4,9796.5,10206.5,0.96,0.946
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,5,16815.84,10206.5,1.648,1.818
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,6,15397.09,10206.5,1.509,1.694
+2026-10-26,Worlds,Phase suisse,D,Bilibili Gaming,Défaite,0,suit un autre moment de moins de 3 jours,7,20332.2,10206.5,1.992,1.714
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,-3,11711.59,10905.51,1.074,1.033
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,-2,9886.3,10905.51,0.907,0.891
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,-1,9897.32,10905.51,0.908,0.883
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,0,9323.96,10905.51,0.855,0.927
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,1,9796.5,10905.51,0.898,0.933
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,2,16815.84,10905.51,1.542,1.794
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,3,15397.09,10905.51,1.412,1.671
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,4,20332.2,10905.51,1.864,1.691
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,5,20038.21,10905.51,1.837,1.772
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,6,17595.56,10905.51,1.613,1.624
+2026-10-29,Worlds,Phase suisse (élimination),V,CTBC Flying Oyster,Victoire,0,suit un autre moment de moins de 3 jours,7,17512.28,10905.51,1.606,1.656
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,-3,9897.32,11711.59,0.845,0.858
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,-2,9323.96,11711.59,0.796,0.901
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,-1,9796.5,11711.59,0.836,0.907
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,0,16815.84,11711.59,1.436,1.744
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,1,15397.09,11711.59,1.315,1.625
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,2,20332.2,11711.59,1.736,1.644
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,3,20038.21,11711.59,1.711,1.723
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,4,17595.56,11711.59,1.502,1.579
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,5,17512.28,11711.59,1.495,1.61
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,6,24334.0,11711.59,2.078,2.425
+2026-10-31,Worlds,Phase suisse (qualification),V,Movistar KOI,Qualification,0,suit un autre moment de moins de 3 jours,7,25580.43,11711.59,2.184,2.722

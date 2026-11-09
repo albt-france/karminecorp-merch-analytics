@@ -1,0 +1,19 @@
+table 'Param surplus'
+	lineageTag: 9f85f64b-26d0-4652-935d-2cd769702a6e
+
+	column part_evitee
+		dataType: double
+		formatString: 0 %
+		lineageTag: 2adf5580-ca6f-44dc-80da-ab4fd658f441
+		summarizeBy: none
+		sourceColumn: part_evitee
+
+	partition 'Param surplus' = m
+		mode: import
+		source =
+				let
+					Source = Table.FromList(List.Transform({0..10}, each _ / 20), Splitter.SplitByNothing(), {"part_evitee"}),
+					Typed = Table.TransformColumnTypes(Source, {{"part_evitee", type number}})
+				in
+					Typed
+

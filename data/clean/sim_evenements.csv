@@ -1,0 +1,17 @@
+event_id,nom,date_evenement,lieu,capacite,date_ouverture_ventes,billets_vendus,taux_remplissage,date_complet,reporte_rembourse,info_reelle
+E01,Inauguration des Arènes (J1),2024-09-20,"Les Arènes, Évry",3000,2024-08-06,2230,0.7433,,0,4 500 spectateurs réels sur 2 jours
+E02,Inauguration des Arènes (J2),2024-09-21,"Les Arènes, Évry",3000,2024-08-07,2514,0.838,,0,4 500 spectateurs réels sur 2 jours
+E03,KCX 4 - Forever Rivals,2024-11-09,Paris La Défense Arena,30000,2024-08-11,29420,0.9807,,0,≈ 28 000 spectateurs réels
+E04,LEC Roadtrip (J1),2025-05-10,"Les Arènes, Évry",3000,2025-03-21,3000,1.0,2025-03-22,0,"date réelle, ventes simulées"
+E05,LEC Roadtrip (J2),2025-05-11,"Les Arènes, Évry",3000,2025-03-22,3000,1.0,2025-03-25,0,"date réelle, ventes simulées"
+E06,Date Arènes 2025 n°3,2025-06-14,"Les Arènes, Évry",3000,2025-05-05,3000,1.0,2025-06-09,0,date hypothétique (5 dates réelles en 2025)
+E07,Date Arènes 2025 n°4,2025-09-27,"Les Arènes, Évry",3000,2025-08-18,3000,1.0,2025-08-25,0,date hypothétique (5 dates réelles en 2025)
+E08,Date Arènes 2025 n°5,2025-10-18,"Les Arènes, Évry",3000,2025-09-08,3000,1.0,2025-09-16,0,date hypothétique (5 dates réelles en 2025)
+E09,KCX 5 (J1) - reporté,2025-12-19,Adidas Arena,7500,2025-10-05,6516,0.8688,,1,"report réel annoncé le 12/11/2025, billets remboursés"
+E10,KCX 5 (J2) - reporté,2025-12-20,Adidas Arena,7500,2025-10-06,6385,0.8513,,1,"report réel annoncé le 12/11/2025, billets remboursés"
+E11,LEC Roadtrip Spring (J1),2026-04-24,"Les Arènes, Évry",3000,2026-03-05,3000,1.0,2026-03-06,0,"date réelle, ventes simulées"
+E12,LEC Roadtrip Spring (J2),2026-04-25,"Les Arènes, Évry",3000,2026-03-06,3000,1.0,2026-03-06,0,"date réelle, ventes simulées"
+E13,LEC Roadtrip Spring (J3),2026-04-26,"Les Arènes, Évry",3000,2026-03-07,3000,1.0,2026-03-07,0,"date réelle, ventes simulées"
+E14,LEC Roadtrip Summer (J1),2026-07-24,Adidas Arena,7500,2026-05-10,6520,0.8693,,0,date réelle ; pass 1 jour restants mi-mai (réel)
+E15,LEC Roadtrip Summer (J2),2026-07-25,Adidas Arena,7500,2026-05-11,7500,1.0,2026-07-24,0,date réelle ; pass 1 jour restants mi-mai (réel)
+E16,LEC Roadtrip Summer (J3),2026-07-26,Adidas Arena,7500,2026-05-12,7368,0.9824,,0,date réelle ; pass 1 jour restants mi-mai (réel)

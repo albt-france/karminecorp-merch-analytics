@@ -1,0 +1,19 @@
+table 'Param recuperation'
+	lineageTag: 4560deba-0b7f-4569-b3e7-9faaa94747af
+
+	column part_recuperee
+		dataType: double
+		formatString: 0 %
+		lineageTag: 6f34555f-8eed-4740-9cb0-7ef8ec5fe55e
+		summarizeBy: none
+		sourceColumn: part_recuperee
+
+	partition 'Param recuperation' = m
+		mode: import
+		source =
+				let
+					Source = Table.FromList(List.Transform({0..10}, each _ / 10), Splitter.SplitByNothing(), {"part_recuperee"}),
+					Typed = Table.TransformColumnTypes(Source, {{"part_recuperee", type number}})
+				in
+					Typed
+

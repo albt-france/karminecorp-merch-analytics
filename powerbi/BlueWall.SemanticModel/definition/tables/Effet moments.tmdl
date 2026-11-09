@@ -1,0 +1,50 @@
+table 'Effet moments'
+	lineageTag: 77717de4-8ff5-4bfd-87e4-43a92b2097de
+
+	column moment
+		dataType: string
+		lineageTag: 848138ea-e775-431f-b143-2478abec4ac3
+		summarizeBy: none
+		sourceColumn: moment
+
+	column nb_moments
+		dataType: int64
+		lineageTag: 6c31f50d-4692-4e45-ac97-9424d3fa368f
+		summarizeBy: none
+		sourceColumn: nb_moments
+
+	column hausse_ca_j0_j3
+		dataType: double
+		formatString: +0 %;-0 %;0 %
+		lineageTag: 4887299c-603d-44d9-8307-03f63bf3f6ac
+		summarizeBy: none
+		sourceColumn: hausse_ca_j0_j3
+
+	column ic95_bas
+		dataType: double
+		lineageTag: 801d91d4-b58b-454d-91f1-ac3defcee58f
+		summarizeBy: none
+		sourceColumn: ic95_bas
+
+	column ic95_haut
+		dataType: double
+		lineageTag: 6ef9874b-8b9d-43fe-80aa-2e9a511ca202
+		summarizeBy: none
+		sourceColumn: ic95_haut
+
+	column p_value
+		dataType: double
+		lineageTag: 30349f99-cf97-4706-b614-818491f1c764
+		summarizeBy: none
+		sourceColumn: p_value
+
+	partition 'Effet moments' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "effet_moments.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"moment", type text}, {"nb_moments", Int64.Type}, {"hausse_ca_j0_j3", type number}, {"ic95_bas", type number}, {"ic95_haut", type number}, {"p_value", type number}}, "en-US")
+				in
+					Typed
+

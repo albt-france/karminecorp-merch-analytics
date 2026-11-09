@@ -1,0 +1,107 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "txt_probleme",
+  "position": {
+    "x": 78,
+    "y": 356,
+    "z": 6000,
+    "height": 281,
+    "width": 860,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Le merch pèse environ 40 % du chiffre d'affaires de la KC (2,5 M€ en 2023, Sheep Esports). Le 09/11/2026, 73 % des 115 produits de la boutique sont soldés, jusqu'à -80 %, alors que 45 % des variantes XXL et 3XL sont épuisées, contre 10 % des XS.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Autrement dit : on solde ce qu'on a trop produit et on manque ce qui se vend. Ce rapport mesure d'où vient ce décalage, ce qu'il coûte et comment le réduire.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Le 5 octobre 2026, la KC a annoncé vouloir renforcer son équipe merch : c'est le bon moment pour piloter les drops par la donnée.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

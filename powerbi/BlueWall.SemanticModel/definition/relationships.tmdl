@@ -1,0 +1,36 @@
+relationship rel_01
+	fromColumn: Ventes.product_id
+	toColumn: Produits.product_id
+
+relationship rel_02
+	fromColumn: Ventes.taille
+	toColumn: Tailles.taille
+
+relationship rel_03
+	fromColumn: Ventes.tranche_remise
+	toColumn: Tranches.tranche_remise
+
+relationship rel_04
+	fromColumn: Ventes.date
+	toColumn: Calendrier.date
+
+relationship rel_05
+	fromColumn: Stock.product_id
+	toColumn: Produits.product_id
+
+relationship rel_06
+	fromColumn: Stock.taille
+	toColumn: Tailles.taille
+
+relationship rel_07
+	fromColumn: Releves.taille
+	toColumn: Tailles.taille
+
+relationship rel_08
+	fromColumn: Releves.tranche_remise
+	toColumn: Tranches.tranche_remise
+
+relationship rel_09
+	fromColumn: 'Historique tailles'.taille
+	toColumn: Tailles.taille
+

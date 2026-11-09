@@ -1,0 +1,76 @@
+table Stock
+	lineageTag: a8dc0dff-8c31-4939-8dac-6538c3adc263
+
+	column variant_id
+		dataType: string
+		lineageTag: 52c71f3c-419d-4b7e-81ae-d7f4a70236c4
+		summarizeBy: none
+		sourceColumn: variant_id
+
+	column product_id
+		dataType: string
+		lineageTag: d7f6842d-d112-4df3-b633-5b6a46532ba2
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column taille
+		dataType: string
+		lineageTag: c7cf66cc-f820-45f5-b5f8-2525150cecb9
+		summarizeBy: none
+		sourceColumn: taille
+
+	column stock_initial
+		dataType: double
+		lineageTag: a4dba5cd-a1e2-4c5d-8001-ff7412ac02b3
+		summarizeBy: none
+		sourceColumn: stock_initial
+
+	column fabrique_a_la_commande
+		dataType: int64
+		lineageTag: 46fdaed8-9afd-4260-83a5-57eb2b64126f
+		summarizeBy: none
+		sourceColumn: fabrique_a_la_commande
+
+	column unites_vendues
+		dataType: int64
+		lineageTag: 49d864fb-e24e-43a5-a988-4f157d03bb1d
+		summarizeBy: none
+		sourceColumn: unites_vendues
+
+	column stock_final
+		dataType: double
+		lineageTag: f7aa53c5-100f-4822-8421-c92d67c11fea
+		summarizeBy: none
+		sourceColumn: stock_final
+
+	column date_rupture
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 15882726-825d-4bb9-82f4-2ef46212f92c
+		summarizeBy: none
+		sourceColumn: date_rupture
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ventes_perdues
+		dataType: int64
+		lineageTag: ffec4133-85ef-49ce-b173-6571327105a9
+		summarizeBy: none
+		sourceColumn: ventes_perdues
+
+	column alertes_retour_stock
+		dataType: int64
+		lineageTag: 35dc650c-5fd2-4bb8-bfa0-c781498fe816
+		summarizeBy: none
+		sourceColumn: alertes_retour_stock
+
+	partition Stock = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "stock.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"variant_id", type text}, {"product_id", type text}, {"taille", type text}, {"stock_initial", type number}, {"fabrique_a_la_commande", Int64.Type}, {"unites_vendues", Int64.Type}, {"stock_final", type number}, {"date_rupture", type date}, {"ventes_perdues", Int64.Type}, {"alertes_retour_stock", Int64.Type}}, "en-US")
+				in
+					Typed
+

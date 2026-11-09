@@ -1,0 +1,7 @@
+event_id,nom,date_evenement,lieu,capacite,billets,taux_remplissage,part_capacite_vendue_j0,part_capacite_vendue_48h,jours_avant_complet,liste_attente,ca_ttc,reporte_rembourse,info_reelle,prevision,erreur_points
+E11,LEC Roadtrip Spring (J1),2026-04-24,"Les Arènes, Évry",3000,3000.0,1.0,0.89,1.0,1.0,864.0,80400.0,0,"date réelle, ventes simulées",1.0,0.0
+E12,LEC Roadtrip Spring (J2),2026-04-25,"Les Arènes, Évry",3000,3000.0,1.0,1.0,1.0,0.0,1286.0,80400.0,0,"date réelle, ventes simulées",1.0,0.0
+E13,LEC Roadtrip Spring (J3),2026-04-26,"Les Arènes, Évry",3000,3000.0,1.0,1.0,1.0,0.0,1114.0,80400.0,0,"date réelle, ventes simulées",1.0,0.0
+E14,LEC Roadtrip Summer (J1),2026-07-24,Adidas Arena,7500,6520.0,0.869,0.416,0.46,,0.0,257740.0,0,date réelle ; pass 1 jour restants mi-mai (réel),0.8343722943722943,-3.4627705627705674
+E15,LEC Roadtrip Summer (J2),2026-07-25,Adidas Arena,7500,7500.0,1.0,0.481,0.545,74.0,52.0,296250.0,0,date réelle ; pass 1 jour restants mi-mai (réel),0.9885497835497835,-1.1450216450216488
+E16,LEC Roadtrip Summer (J3),2026-07-26,Adidas Arena,7500,7368.0,0.982,0.481,0.538,,0.0,291852.0,0,date réelle ; pass 1 jour restants mi-mai (réel),0.9758528138528137,-0.6147186147186234

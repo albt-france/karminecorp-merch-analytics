@@ -1,0 +1,144 @@
+table Ventes
+	lineageTag: bc5a8f34-528b-474d-a905-a45e9b1056f5
+
+	column line_id
+		dataType: int64
+		lineageTag: 139ee3e2-67d7-4eee-a165-cec420236ced
+		summarizeBy: none
+		sourceColumn: line_id
+
+	column order_id
+		dataType: int64
+		lineageTag: 08e73b57-4c12-4e07-bb14-e049ddb102b3
+		summarizeBy: none
+		sourceColumn: order_id
+
+	column date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 34fc5f12-01aa-4b39-b710-14110fc2f535
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column client_id
+		dataType: int64
+		lineageTag: 42acf2bb-ef6c-4a38-a5f0-67efa694e867
+		summarizeBy: none
+		sourceColumn: client_id
+
+	column product_id
+		dataType: string
+		lineageTag: ba070849-dfa4-4956-9857-1d9efda4555e
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column variant_id
+		dataType: string
+		lineageTag: 21070454-7d55-4c4b-8325-ab29998337a7
+		summarizeBy: none
+		sourceColumn: variant_id
+
+	column taille
+		dataType: string
+		lineageTag: 3ba71096-85dd-40ea-b7c8-0dac942bce2e
+		summarizeBy: none
+		sourceColumn: taille
+
+	column quantite
+		dataType: int64
+		lineageTag: 8b10491d-3f2d-4a4d-bf04-6b1305b6db49
+		summarizeBy: none
+		sourceColumn: quantite
+
+	column prix_plein_ttc
+		dataType: double
+		lineageTag: ceb26eb9-6c5f-40ed-b8a4-db21a2f590b7
+		summarizeBy: none
+		sourceColumn: prix_plein_ttc
+
+	column remise_pct
+		dataType: double
+		formatString: 0 %
+		lineageTag: 98471dc5-0f34-4987-8b27-a519ad17ea7c
+		summarizeBy: none
+		sourceColumn: remise_pct
+
+	column tranche_remise
+		dataType: string
+		lineageTag: 6604eb7b-f3b7-4413-9cf2-54fe1cedb6e6
+		summarizeBy: none
+		sourceColumn: tranche_remise
+
+	column periode_commerciale
+		dataType: string
+		lineageTag: 134dee71-0f6d-49c7-95c0-6c828a4cfc5e
+		summarizeBy: none
+		sourceColumn: periode_commerciale
+
+	column montant_ht
+		dataType: double
+		formatString: #,0.00 €
+		lineageTag: 61864c34-5491-4056-b29b-caabbbf3e830
+		summarizeBy: none
+		sourceColumn: montant_ht
+
+	column ca_prix_plein_ht
+		dataType: double
+		lineageTag: b34b62f2-620f-4827-b385-bdf95c9b982f
+		summarizeBy: none
+		sourceColumn: ca_prix_plein_ht
+
+	column cout_ht
+		dataType: double
+		lineageTag: 0c0cf058-bf72-43d4-a277-18d5024dda29
+		summarizeBy: none
+		sourceColumn: cout_ht
+
+	column marge_ht
+		dataType: double
+		lineageTag: 5dc91eeb-3a9e-4884-ba08-5ccb0949d9c7
+		summarizeBy: none
+		sourceColumn: marge_ht
+
+	column vendu_sous_cout
+		dataType: int64
+		lineageTag: 08229676-f722-47b5-8311-e18a620d4c13
+		summarizeBy: none
+		sourceColumn: vendu_sous_cout
+
+	column jour_depuis_lancement
+		dataType: int64
+		lineageTag: 30aaaca5-32f8-45b5-b004-efe5a1858c1a
+		summarizeBy: none
+		sourceColumn: jour_depuis_lancement
+
+	column source
+		dataType: string
+		lineageTag: 33fc6682-283b-41ef-97be-fdc2cbee796e
+		summarizeBy: none
+		sourceColumn: source
+
+	column pays
+		dataType: string
+		lineageTag: 94a88304-9d5c-4278-bd42-d1dde0b4a006
+		summarizeBy: none
+		sourceColumn: pays
+
+	column client_type
+		dataType: string
+		lineageTag: 5867040f-6da2-4d31-84b3-6dff29333ce2
+		summarizeBy: none
+		sourceColumn: client_type
+
+	partition Ventes = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "ventes.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"line_id", Int64.Type}, {"order_id", Int64.Type}, {"date", type date}, {"client_id", Int64.Type}, {"product_id", type text}, {"variant_id", type text}, {"taille", type text}, {"quantite", Int64.Type}, {"prix_plein_ttc", type number}, {"remise_pct", type number}, {"tranche_remise", type text}, {"periode_commerciale", type text}, {"montant_ht", type number}, {"ca_prix_plein_ht", type number}, {"cout_ht", type number}, {"marge_ht", type number}, {"vendu_sous_cout", Int64.Type}, {"jour_depuis_lancement", Int64.Type}, {"source", type text}, {"pays", type text}, {"client_type", type text}}, "en-US")
+				in
+					Typed
+

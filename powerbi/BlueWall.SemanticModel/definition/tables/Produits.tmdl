@@ -1,0 +1,90 @@
+table Produits
+	lineageTag: 118dec49-bd43-4c64-833c-08c1081d62c0
+
+	column product_id
+		dataType: string
+		lineageTag: 47486320-47cd-4e7d-ae6d-3acac2205351
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column nom
+		dataType: string
+		lineageTag: dc211b21-19ee-4bf1-bed1-d4e0d086ea5d
+		summarizeBy: none
+		sourceColumn: nom
+
+	column type
+		dataType: string
+		lineageTag: e6e230d9-6a85-40ea-ae31-031761b71180
+		summarizeBy: none
+		sourceColumn: type
+
+	column famille
+		dataType: string
+		lineageTag: 8f0c3e93-f9c5-4320-af7a-32093807452b
+		summarizeBy: none
+		sourceColumn: famille
+
+	column collection
+		dataType: string
+		lineageTag: 95942579-d432-4f4c-a1f2-f8adb6e6827b
+		summarizeBy: none
+		sourceColumn: collection
+
+	column date_lancement
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: c8e4e5af-dd85-4d97-9e11-de86039d49bb
+		summarizeBy: none
+		sourceColumn: date_lancement
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column prix_plein_ttc
+		dataType: double
+		formatString: #,0.00 €
+		lineageTag: 1ae8051e-354d-4575-a141-b02679426b52
+		summarizeBy: none
+		sourceColumn: prix_plein_ttc
+
+	column cout_unitaire_ht
+		dataType: double
+		formatString: #,0.00 €
+		lineageTag: a7e919fb-c005-4b74-b029-37aec9da7ae5
+		summarizeBy: none
+		sourceColumn: cout_unitaire_ht
+
+	column remise_reelle_20261109
+		dataType: double
+		lineageTag: 78c7a2f0-23db-42ad-afc8-55010825e6e4
+		summarizeBy: none
+		sourceColumn: remise_reelle_20261109
+
+	column precommande
+		dataType: int64
+		lineageTag: a23b2c29-fcf3-4c0b-beb5-9570afa820c8
+		summarizeBy: none
+		sourceColumn: precommande
+
+	column origine
+		dataType: string
+		lineageTag: 7b19608d-a61d-4bb5-ad7a-00d0b4083d39
+		summarizeBy: none
+		sourceColumn: origine
+
+	column jeu_prevision
+		dataType: string
+		lineageTag: ea527440-9234-45af-aa77-8c329c081028
+		summarizeBy: none
+		sourceColumn: jeu_prevision
+
+	partition Produits = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DossierDonnees & "produits.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"product_id", type text}, {"nom", type text}, {"type", type text}, {"famille", type text}, {"collection", type text}, {"date_lancement", type date}, {"prix_plein_ttc", type number}, {"cout_unitaire_ht", type number}, {"remise_reelle_20261109", type number}, {"precommande", Int64.Type}, {"origine", type text}, {"jeu_prevision", type text}}, "en-US")
+				in
+					Typed
+

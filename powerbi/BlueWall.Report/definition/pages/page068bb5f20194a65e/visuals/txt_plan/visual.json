@@ -1,0 +1,130 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "txt_plan",
+  "position": {
+    "x": 982,
+    "y": 746,
+    "z": 10000,
+    "height": 242,
+    "width": 860,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "J1-30  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Brancher Shopify et le stock, définir les indicateurs (écoulement, part au prix plein, ventes perdues), premier tableau de bord des drops.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "J31-60  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Prévision J0-J3 sur chaque drop, courbe de tailles par famille, alertes de rupture.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "",
+                    "textStyle": {
+                      "fontSize": "6pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "J61-90  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2F6BD6",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Test A/B sur une page produit, bilan chiffré des premiers gains, feuille de route 2027.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
